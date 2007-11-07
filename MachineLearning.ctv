@@ -61,7 +61,9 @@
              computed using the functionality in package <pkg>elasticnet</pkg>.
              The L1 regularization path for generalized linear models and
              Cox models can be obtained from functions available in package 
-             <pkg>glmpath</pkg>.
+             <pkg>glmpath</pkg>. The <pkg>penalized</pkg> package provides
+             an alternative implementation of lasso (L1) and ridge (L2) 
+             penalized regression models (both GLM and Cox models).
              The shrunken
              centroids classifier and utilities for gene expression analyses are
              implemented in package <pkg>pamr</pkg>.</li> 
@@ -132,6 +134,7 @@
     <pkg>mvpart</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
+    <pkg>penalized</pkg>
     <pkg>ROCR</pkg>
     <pkg>rpart.permutation</pkg>
     <pkg priority="core">randomForest</pkg>
