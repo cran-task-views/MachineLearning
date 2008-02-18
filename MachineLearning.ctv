@@ -67,7 +67,9 @@
              penalized regression models (both GLM and Cox models).
              The shrunken
              centroids classifier and utilities for gene expression analyses are
-             implemented in package <pkg>pamr</pkg>.</li> 
+             implemented in package <pkg>pamr</pkg>. An implementation
+             of multivariate adaptive regression splines is available
+             in package <pkg>earth</pkg>.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in packages <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting) and <pkg>boost</pkg> (including LogitBoost
@@ -130,6 +132,7 @@
     <pkg priority="core">e1071</pkg>
     <pkg>elasticnet</pkg>
     <pkg>ElemStatLearn</pkg>
+    <pkg>earth</pkg>
     <pkg>gafit</pkg>
     <pkg>GAMBoost</pkg>
     <pkg priority="core">gbm</pkg>
