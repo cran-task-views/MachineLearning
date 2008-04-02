@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>$Date$</version>
+  <version>2008-04-02</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -13,7 +13,7 @@
     The packages can be roughly structured into the following topics:
     <ul>
       <li><i>Neural Networks</i>: Single-hidden-layer neural network are 
-             implemented in package <tt>nnet</tt> as part of the <pkg>VR</pkg>
+             implemented in package nnet as part of the <pkg>VR</pkg>
              bundle (shipped with base R). </li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
@@ -28,10 +28,10 @@
              <br/>
              Two recursive partitioning algorithms with unbiased variable
              selection and statistical stopping criterion are implemented in 
-             package <pkg>party</pkg>. Function <tt>ctree()</tt> is based on 
+             package <pkg>party</pkg>. Function <code>ctree()</code> is based on 
              non-parametrical conditional inference procedures for testing 
              independence between response and each input variable whereas
-             <tt>mob()</tt> can be used to partition parametric models.
+             <code>mob()</code> can be used to partition parametric models.
              Extensible tools for visualizing binary trees
              and node distributions of the response are available in package
              <pkg>party</pkg> as well.
@@ -77,7 +77,7 @@
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>.</li>
-      <li><i>Support Vector Machines</i>: The function <tt>svm()</tt> from 
+      <li><i>Support Vector Machines</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
              for kernel learning (including SVMs, RVMs and other kernel
@@ -100,8 +100,8 @@
              frequent itemsets, maximal frequent itemsets, closed 
              frequent itemsets and association rules.</li>
       <li><i>Model selection and validation</i>: Package <pkg>e1071</pkg>
-             has function <tt>tune()</tt> for hyper parameter tuning and 
-             function <tt>errorest()</tt> (<pkg>ipred</pkg>) can be used for
+             has function <code>tune()</code> for hyper parameter tuning and 
+             function <code>errorest()</code> (<pkg>ipred</pkg>) can be used for
              error rate estimation. The cost parameter C for support vector
              machines can be chosen utilizing the functionality of package
              <pkg>svmpath</pkg>.
