@@ -37,9 +37,7 @@
              <pkg>party</pkg> as well.
              <br/>
              An adaptation of <pkg>rpart</pkg> for multivariate responses
-             is available in package <pkg>mvpart</pkg>. The validity of
-             trees can be investigated via permutation approaches with package 
-             <pkg>rpart.permutation</pkg> and a tree algorithm fitting 
+             is available in package <pkg>mvpart</pkg>. A tree algorithm fitting 
              nearest neighbors in each node is implemented in package 
              <pkg>knnTree</pkg>. For problems with binary input variables
              the package <pkg>LogicReg</pkg> implements logic regression.
@@ -60,9 +58,7 @@
              for random forest algorithms.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
-             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. The solutions
-             for all values of the shrinkage parameter can be simultaneously 
-             computed using the functionality in package <pkg>elasticnet</pkg>.
+             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. 
              The L1 regularization path for generalized linear models and
              Cox models can be obtained from functions available in package 
              <pkg>glmpath</pkg>. The <pkg>penalized</pkg> package provides
@@ -138,7 +134,6 @@
     <pkg>caretLSF</pkg>
     <pkg>caretNWS</pkg>
     <pkg priority="core">e1071</pkg>
-    <pkg>elasticnet</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>gafit</pkg>
@@ -157,7 +152,6 @@
     <pkg>penalized</pkg>
     <pkg>predbayescor</pkg>
     <pkg>ROCR</pkg>
-    <pkg>rpart.permutation</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
     <pkg>rgenoud</pkg>
