@@ -76,13 +76,16 @@
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>.</li>
-      <li><i>Support Vector Machines</i>: The function <code>svm()</code> from 
+      <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
              for kernel learning (including SVMs, RVMs and other kernel
 	     learning algorithms). An interface to the SVMlight implementation
 	     (only for one-against-all classification) is provided in package
-	     <pkg>klaR</pkg>.</li>
+	     <pkg>klaR</pkg>.
+             The relevant dimension in kernel feature spaces can be estimated
+             using <pkg>rdetools</pkg> which also offers procedures for model selection
+             and prediction.</li>
       <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
              where the final model is defined in terms of the sum over
              many weak learners (not unlike ensemble methods), 
@@ -154,6 +157,7 @@
     <pkg>ROCR</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
+    <pkg>rdetools</pkg>
     <pkg>rgenoud</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RWeka</pkg>
