@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2008-06-18</version>
+  <version>2008-10-01</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
