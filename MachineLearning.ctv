@@ -58,12 +58,19 @@
              for random forest algorithms.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
-             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. 
+             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. Lasso with
+             simultaneous updates for groups of parameters (groupwise lasso) 
+             is available in package <pkg>grplasso</pkg>.
              The L1 regularization path for generalized linear models and
              Cox models can be obtained from functions available in package 
-             <pkg>glmpath</pkg>. The <pkg>penalized</pkg> package provides
+             <pkg>glmpath</pkg>, the entire lasso or elastic-net regularization path (also in <pkg>elasticnet</pkg>)
+             for linear regression, 
+             logistic and multinomial regression models can be obtained from package <pkg>glmnet</pkg>.
+             The <pkg>penalized</pkg> package provides
              an alternative implementation of lasso (L1) and ridge (L2) 
              penalized regression models (both GLM and Cox models).
+             A generalisation of the Lasso shrinkage technique for linear regression
+             is called relaxed lasso and is available in package <pkg>relaxo</pkg>.
              The shrunken
              centroids classifier and utilities for gene expression analyses are
              implemented in package <pkg>pamr</pkg>. An implementation
@@ -75,7 +82,8 @@
              and L2Boost). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
-             package <pkg>mboost</pkg>.</li>
+             package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
+             is implemented in <pkg>CoxBoost</pkg></li>
       <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
@@ -136,13 +144,17 @@
     <pkg>caret</pkg>
     <pkg>caretLSF</pkg>
     <pkg>caretNWS</pkg>
+    <pkg>CoxBoost</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
+    <pkg>elasticnet</pkg>
     <pkg>gafit</pkg>
     <pkg>GAMBoost</pkg>
     <pkg priority="core">gbm</pkg>
+    <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
+    <pkg>grplasso</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
@@ -158,6 +170,7 @@
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
     <pkg>rdetools</pkg>
+    <pkg>relaxo</pkg>
     <pkg>rgenoud</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RWeka</pkg>
