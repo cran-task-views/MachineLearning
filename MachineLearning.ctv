@@ -141,8 +141,6 @@
     <pkg>boost</pkg>
     <pkg>BPHO</pkg>
     <pkg>caret</pkg>
-    <pkg>caretLSF</pkg>
-    <pkg>caretNWS</pkg>
     <pkg>CoxBoost</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
