@@ -122,11 +122,10 @@
              Functions for ROC analysis and other visualisation techniques 
              for comparing candidate classifiers are available from package 
              <pkg>ROCR</pkg>.
-             Package <pkg>caret</pkg> provides miscellaneous functions for 
-             building predictive models, including parameter tuning and 
-             variable importance measures. The <pkg>caretLSF</pkg> and 
-             <pkg>caretNWS</pkg> packages provide parallel processing
-             implementations of <pkg>caret</pkg>.</li>
+             Package <pkg>caret</pkg> provides miscellaneous functions 
+             for building predictive models, including parameter tuning 
+             and  variable importance measures. The package can be used 
+             with various parallel implementations (e.g. MPI, NWS etc).
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
              <A HREF="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
