@@ -43,7 +43,8 @@
              the package <pkg>LogicReg</pkg> implements logic regression.
              Graphical tools for the visualization of
              trees are available in packages <pkg>maptree</pkg> and 
-             <pkg>pinktoe</pkg>. </li>
+             <pkg>pinktoe</pkg>. An approach to deal with the instability
+             problem via extra splits is available in package <pkg>TWIX</pkg>. </li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
              package <pkg>randomForest</pkg>. Package <pkg>ipred</pkg> has bagging
@@ -174,6 +175,7 @@
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
+    <pkg>TWIX</pkg>
     <pkg>varSelRF</pkg>
     <pkg priority="core">VR</pkg>
   </packagelist>
