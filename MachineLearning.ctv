@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2009-02-06</version>
+  <version>2009-06-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -78,9 +78,8 @@
              of multivariate adaptive regression splines is available
              in package <pkg>earth</pkg>.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
-             implemented in packages <pkg>gbm</pkg> (tree-based functional gradient
-             descent boosting) and <pkg>boost</pkg> (including LogitBoost
-             and L2Boost). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
+             implemented in package <pkg>gbm</pkg> (tree-based functional gradient
+             descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
@@ -139,7 +138,6 @@
   <packagelist>
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
-    <pkg>boost</pkg>
     <pkg>BPHO</pkg>
     <pkg>caret</pkg>
     <pkg>CoxBoost</pkg>
