@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2009-06-24</version>
+  <version>2009-09-09</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -76,7 +76,9 @@
              centroids classifier and utilities for gene expression analyses are
              implemented in package <pkg>pamr</pkg>. An implementation
              of multivariate adaptive regression splines is available
-             in package <pkg>earth</pkg>.</li> 
+             in package <pkg>earth</pkg>. Variable selection through clone selection
+             in SVMs in penalized models (SCAD or L1 penalties) is implemented
+             in package <pkg>penalizedSVM</pkg>.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
@@ -161,6 +163,7 @@
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>penalized</pkg>
+    <pkg>penalizedSVM</pkg>
     <pkg>predbayescor</pkg>
     <pkg>ROCR</pkg>
     <pkg priority="core">randomForest</pkg>
