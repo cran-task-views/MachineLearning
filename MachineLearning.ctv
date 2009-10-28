@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2009-09-09</version>
+  <version>2009-10-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -13,8 +13,7 @@
     The packages can be roughly structured into the following topics:
     <ul>
       <li><i>Neural Networks</i>: Single-hidden-layer neural network are 
-             implemented in package nnet as part of the <pkg>VR</pkg>
-             bundle (shipped with base R). </li>
+             implemented in package <pkg>nnet</pkg> (shipped with base R).</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -160,6 +159,7 @@
     <pkg>lasso2</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
+    <pkg priority="core">nnet</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>penalized</pkg>
@@ -178,7 +178,6 @@
     <pkg>tree</pkg>
     <pkg>TWIX</pkg>
     <pkg>varSelRF</pkg>
-    <pkg priority="core">VR</pkg>
   </packagelist>
 
   <links>
