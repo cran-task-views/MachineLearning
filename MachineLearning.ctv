@@ -43,7 +43,9 @@
              Graphical tools for the visualization of
              trees are available in packages <pkg>maptree</pkg> and 
              <pkg>pinktoe</pkg>. An approach to deal with the instability
-             problem via extra splits is available in package <pkg>TWIX</pkg>. </li>
+             problem via extra splits is available in package <pkg>TWIX</pkg>.
+             <br/> Trees for modelling longitudinal data by means of
+             random effects are offered by package <pkg>REEMtree</pkg>. </li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
              package <pkg>randomForest</pkg>. Package <pkg>ipred</pkg> has bagging
@@ -170,6 +172,7 @@
     <pkg>randomSurvivalForest</pkg>
     <pkg>rdetools</pkg>
     <pkg>relaxo</pkg>
+    <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RWeka</pkg>
