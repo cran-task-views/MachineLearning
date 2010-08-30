@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2009-11-23</version>
+  <version>2010-08-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -55,7 +55,11 @@
              response variables measured at arbitrary scales based on
              conditional inference trees is implemented in package <pkg>party</pkg>.
              <pkg>randomSurvivalForest</pkg> offers a random forest algorithm for
-             censored data.
+             censored data. Quantile regression forests <pkg>quantregForest</pkg>
+             allow to regress quantiles of a numeric response on exploratory
+             variables via a random forest approach. For binary data,
+             <pkg>LogicForest</pkg> is a forest of logic regression trees (package
+             <pkg>LogicReg</pkg>.
              The <pkg>varSelRF</pkg> package focuses on variable selection by means
              for random forest algorithms.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
@@ -79,7 +83,10 @@
              of multivariate adaptive regression splines is available
              in package <pkg>earth</pkg>. Variable selection through clone selection
              in SVMs in penalized models (SCAD or L1 penalties) is implemented
-             in package <pkg>penalizedSVM</pkg>.</li> 
+             in package <pkg>penalizedSVM</pkg>. Various forms of
+             penalized discriminant analysis are implemented in 
+             packages <pkg>hda</pkg>, <pkg>rda</pkg>, <pkg>sda</pkg>, and
+             <pkg>SSDA</pkg>. </li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
@@ -154,11 +161,14 @@
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
     <pkg>grplasso</pkg>
+    <pkg>hda</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
+    <pkg>LogicForest</pkg>
+    <pkg>LogicReg</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
     <pkg priority="core">nnet</pkg>
@@ -167,15 +177,19 @@
     <pkg>penalized</pkg>
     <pkg>penalizedSVM</pkg>
     <pkg>predbayescor</pkg>
+    <pkg>quantregForest</pkg>
     <pkg>ROCR</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
+    <pkg>rda</pkg>
     <pkg>rdetools</pkg>
     <pkg>relaxo</pkg>
     <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RWeka</pkg>
+    <pkg>sda</pkg>
+    <pkg>SSDA</pkg>
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
