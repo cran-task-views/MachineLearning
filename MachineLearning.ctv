@@ -86,7 +86,7 @@
              in package <pkg>penalizedSVM</pkg>. Various forms of
              penalized discriminant analysis are implemented in 
              packages <pkg>hda</pkg>, <pkg>rda</pkg>, <pkg>sda</pkg>, and
-             <pkg>SSDA</pkg>. </li> 
+             <pkg>SDDA</pkg>. </li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
@@ -189,7 +189,7 @@
     <pkg priority="core">rpart</pkg>
     <pkg>RWeka</pkg>
     <pkg>sda</pkg>
-    <pkg>SSDA</pkg>
+    <pkg>SDDA</pkg>
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
