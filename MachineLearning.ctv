@@ -60,7 +60,7 @@
              variables via a random forest approach. For binary data,
              <pkg>LogicForest</pkg> is a forest of logic regression trees (package
              <pkg>LogicReg</pkg>.
-             The <pkg>varSelRF</pkg> package focuses on variable selection by means
+             The <pkg>varSelRF</pkg> and <pkg>Boruta</pkg> packages focus on variable selection by means
              for random forest algorithms.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
@@ -148,6 +148,7 @@
   <packagelist>
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
+    <pkg>Boruta</pkg>
     <pkg>BPHO</pkg>
     <pkg>caret</pkg>
     <pkg>CoxBoost</pkg>
