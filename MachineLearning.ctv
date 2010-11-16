@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2010-09-21</version>
+  <version>2010-11-16</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -13,7 +13,9 @@
     The packages can be roughly structured into the following topics:
     <ul>
       <li><i>Neural Networks</i>: Single-hidden-layer neural network are 
-             implemented in package <pkg>nnet</pkg> (shipped with base R).</li>
+             implemented in package <pkg>nnet</pkg> (shipped with base R).
+             Package <pkg>RSNNS</pkg> offers an interface to the Stuttgart 
+             Neural Network Simulator (SNNS).</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -115,7 +117,8 @@
              are available from package <pkg>BPHO</pkg> and Bayesian naive Bayes models 
              for binary classification with bias corrected feature selection is implemented in
              package <pkg>predbayescor</pkg>.</li>
-      <li><i>Optimization using Genetic Algorithms</i> Packages <pkg>gafit</pkg> and
+      <li><i>Optimization using Genetic Algorithms</i> Packages <pkg>gafit</pkg>,
+             <pkg>rgp</pkg>, and
              <pkg>rgenoud</pkg> offer optimization routines based on genetic algorithms. </li>
       <li><i>Association Rules</i>: Package
              <pkg>arules</pkg> provides both data structures for efficient
@@ -179,7 +182,6 @@
     <pkg>penalizedSVM</pkg>
     <pkg>predbayescor</pkg>
     <pkg>quantregForest</pkg>
-    <pkg>ROCR</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
     <pkg>rda</pkg>
@@ -187,7 +189,10 @@
     <pkg>relaxo</pkg>
     <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
+    <pkg>rgp</pkg>
+    <pkg>ROCR</pkg>
     <pkg priority="core">rpart</pkg>
+    <pkg>RSNNS</pkg>
     <pkg>RWeka</pkg>
     <pkg>sda</pkg>
     <pkg>SDDA</pkg>
