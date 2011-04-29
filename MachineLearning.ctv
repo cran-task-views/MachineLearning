@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2010-12-10</version>
+  <version>2011-04-29</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -26,6 +26,9 @@
              <A HREF="http://www.cs.waikato.ac.nz/~ml/weka/">Weka</A>, 
              package <pkg>RWeka</pkg> provides an interface to this
              implementation, including the J4.8-variant of C4.5 and M5.
+             The <pkg>Cubist</pkg> package fits rule-based models (similar
+             to trees) with linear regression models in the terminal leaves,
+             instance-based corrections and boosting.
              <br/>
              Two recursive partitioning algorithms with unbiased variable
              selection and statistical stopping criterion are implemented in 
@@ -147,6 +150,9 @@
              Jerome Friedman have been packaged and are available as
              <pkg>ElemStatLearn</pkg>.</li>
     </ul>
+  <pkg>CORElearn</pkg> implements a rather broad class of machine learning
+  algorithms, such as nearest neighbors, trees, random forests, and 
+  several feature selection methods.
   </info>
 
   <packagelist>
@@ -155,7 +161,9 @@
     <pkg>Boruta</pkg>
     <pkg>BPHO</pkg>
     <pkg>caret</pkg>
+    <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
+    <pkg>Cubist</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
