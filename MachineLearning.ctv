@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2011-04-29</version>
+  <version>2011-05-04</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -152,7 +152,9 @@
     </ul>
   <pkg>CORElearn</pkg> implements a rather broad class of machine learning
   algorithms, such as nearest neighbors, trees, random forests, and 
-  several feature selection methods.
+  several feature selection methods. Similar, package <pkg>rminer</pkg> interfaces
+  several learning algorithms implemented in other packages and computes
+  several performance measures.
   </info>
 
   <packagelist>
@@ -200,6 +202,7 @@
     <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
     <pkg>rgp</pkg>
+    <pkg>rminer</pkg>
     <pkg>ROCR</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RSNNS</pkg>
