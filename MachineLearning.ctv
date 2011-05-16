@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2011-05-04</version>
+  <version>2011-05-16</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -92,7 +92,10 @@
              penalized discriminant analysis are implemented in 
              packages <pkg>hda</pkg>, <pkg>rda</pkg>, <pkg>sda</pkg>, and
              <pkg>SDDA</pkg>. Package <pkg>LiblineaR</pkg> offers an interface to 
-             the LIBLINEAR library.</li> 
+             the LIBLINEAR library.
+             The <pkg>ncvreg</pkg> package fits linear and logistic
+             regression models under the the SCAD and MCP 
+             regression penalties using a coordinate descent algorithm.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
@@ -187,6 +190,7 @@
     <pkg>LogicReg</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
+    <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
