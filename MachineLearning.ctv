@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2011-05-16</version>
+  <version>2011-05-20</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -80,6 +80,8 @@
              The <pkg>penalized</pkg> package provides
              an alternative implementation of lasso (L1) and ridge (L2) 
              penalized regression models (both GLM and Cox models).
+             Semiparametric Cox models under lasso penalties are offered
+             by package <pkg>ahaz</pkg>.
              A generalisation of the Lasso shrinkage technique for linear regression
              is called relaxed lasso and is available in package <pkg>relaxo</pkg>.
              The shrunken
@@ -161,6 +163,7 @@
   </info>
 
   <packagelist>
+    <pkg>ahaz</pkg>
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
     <pkg>Boruta</pkg>
