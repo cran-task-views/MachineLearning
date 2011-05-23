@@ -80,7 +80,7 @@
              The <pkg>penalized</pkg> package provides
              an alternative implementation of lasso (L1) and ridge (L2) 
              penalized regression models (both GLM and Cox models).
-             Semiparametric Cox models under lasso penalties are offered
+             Semiparametric additive hazards models under lasso penalties are offered
              by package <pkg>ahaz</pkg>.
              A generalisation of the Lasso shrinkage technique for linear regression
              is called relaxed lasso and is available in package <pkg>relaxo</pkg>.
