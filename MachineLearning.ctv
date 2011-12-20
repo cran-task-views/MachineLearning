@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2011-05-20</version>
+  <version>2011-12-20</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -50,7 +50,17 @@
              <pkg>pinktoe</pkg>. An approach to deal with the instability
              problem via extra splits is available in package <pkg>TWIX</pkg>.
              <br/> Trees for modelling longitudinal data by means of
-             random effects are offered by package <pkg>REEMtree</pkg>. </li>
+             random effects are offered by packages <pkg>REEMtree</pkg>
+             and <pkg>longRPart</pkg>
+             and trees tailored for ordinal responses by package 
+             <pkg>rpartOrdinal</pkg>. Partitioning of mixed models
+             is performed by <pkg>RPMM</pkg>.
+             <br/>
+             Computational infrastructure for representing trees and
+             unified methods for predition and visualization is implemented
+             in <pkg>partykit</pkg>. This infrastructure is used by
+             package <pkg>evtree</pkg> to implement evolutionary learning 
+             of globally optimal trees.</li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
              package <pkg>randomForest</pkg>. Package <pkg>ipred</pkg> has bagging
@@ -66,7 +76,9 @@
              <pkg>LogicForest</pkg> is a forest of logic regression trees (package
              <pkg>LogicReg</pkg>.
              The <pkg>varSelRF</pkg> and <pkg>Boruta</pkg> packages focus on variable selection by means
-             for random forest algorithms.</li>
+             for random forest algorithms. 
+             Oblique trees (package <pkg>oblique.tree</pkg>) are used for growing forests
+             by package <pkg>obliqueRF</pkg>.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
              <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. Lasso with
@@ -100,11 +112,14 @@
              regression penalties using a coordinate descent algorithm.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
-             descent boosting). Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
+             descent boosting). The Hinge-loss is optimized by the boosting implementation 
+             in package <pkg>bst</pkg>. Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
-             is implemented in <pkg>CoxBoost</pkg></li>
+             is implemented in <pkg>CoxBoost</pkg> and for mixed models in
+             <pkg>GMMBoost</pkg>. Tree-based boosting with errors-in-variables is offered by <pkg>gbev</pkg>.
+             GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.</li>
       <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
@@ -154,6 +169,7 @@
              Inference, and Prediction</A> by Trevor Hastie, Robert Tibshirani and 
              Jerome Friedman have been packaged and are available as
              <pkg>ElemStatLearn</pkg>.</li>
+      <li><i>GUI</i><pkg>rattle</pkg> is a graphical user interface for data mining in R.</li>
     </ul>
   <pkg>CORElearn</pkg> implements a rather broad class of machine learning
   algorithms, such as nearest neighbors, trees, random forests, and 
@@ -168,19 +184,24 @@
     <pkg>BayesTree</pkg>
     <pkg>Boruta</pkg>
     <pkg>BPHO</pkg>
+    <pkg>bst</pkg>
     <pkg>caret</pkg>
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
+    <pkg>evtree</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
     <pkg>gafit</pkg>
     <pkg>GAMBoost</pkg>
+    <pkg>gamboostLSS</pkg>
+    <pkg>gbev</pkg>
     <pkg priority="core">gbm</pkg>
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
+    <pkg>GMMBoost</pkg>
     <pkg>grplasso</pkg>
     <pkg>hda</pkg>
     <pkg>ipred</pkg>
@@ -191,18 +212,23 @@
     <pkg>LiblineaR</pkg>
     <pkg>LogicForest</pkg>
     <pkg>LogicReg</pkg>
+    <pkg>longRPart</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
+    <pkg>oblique.tree</pkg>
+    <pkg>obliqueRF</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
+    <pkg>partykit</pkg>
     <pkg>penalized</pkg>
     <pkg>penalizedSVM</pkg>
     <pkg>predbayescor</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
+    <pkg>rattle</pkg>
     <pkg>rda</pkg>
     <pkg>rdetools</pkg>
     <pkg>relaxo</pkg>
@@ -212,6 +238,8 @@
     <pkg>rminer</pkg>
     <pkg>ROCR</pkg>
     <pkg priority="core">rpart</pkg>
+    <pkg>rpartOrdinal</pkg>
+    <pkg>RPMM</pkg>
     <pkg>RSNNS</pkg>
     <pkg>RWeka</pkg>
     <pkg>sda</pkg>
