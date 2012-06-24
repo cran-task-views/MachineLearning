@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2011-12-20</version>
+  <version>2012-06-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -118,7 +118,7 @@
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
              is implemented in <pkg>CoxBoost</pkg> and for mixed models in
-             <pkg>GMMBoost</pkg>. Tree-based boosting with errors-in-variables is offered by <pkg>gbev</pkg>.
+             <pkg>GMMBoost</pkg>.
              GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.</li>
       <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
@@ -197,7 +197,6 @@
     <pkg>gafit</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
-    <pkg>gbev</pkg>
     <pkg priority="core">gbm</pkg>
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
