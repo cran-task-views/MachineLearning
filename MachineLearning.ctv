@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2012-06-24</version>
+  <version>2012-08-10</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -60,7 +60,8 @@
              unified methods for predition and visualization is implemented
              in <pkg>partykit</pkg>. This infrastructure is used by
              package <pkg>evtree</pkg> to implement evolutionary learning 
-             of globally optimal trees.</li>
+             of globally optimal trees.
+             Oblique trees are available in package <pkg>oblique.tree</pkg>.</li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
              package <pkg>randomForest</pkg>. Package <pkg>ipred</pkg> has bagging
@@ -76,9 +77,7 @@
              <pkg>LogicForest</pkg> is a forest of logic regression trees (package
              <pkg>LogicReg</pkg>.
              The <pkg>varSelRF</pkg> and <pkg>Boruta</pkg> packages focus on variable selection by means
-             for random forest algorithms. 
-             Oblique trees (package <pkg>oblique.tree</pkg>) are used for growing forests
-             by package <pkg>obliqueRF</pkg>.</li>
+             for random forest algorithms. </li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
              <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. Lasso with
@@ -217,7 +216,6 @@
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>oblique.tree</pkg>
-    <pkg>obliqueRF</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>partykit</pkg>
