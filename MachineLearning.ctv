@@ -28,7 +28,8 @@
              implementation, including the J4.8-variant of C4.5 and M5.
              The <pkg>Cubist</pkg> package fits rule-based models (similar
              to trees) with linear regression models in the terminal leaves,
-             instance-based corrections and boosting.
+             instance-based corrections and boosting. The <pkg>C50</pkg> package can fit
+             C5.0 classification trees, rule-based models, and boosted versions of these.
              <br/>
              Two recursive partitioning algorithms with unbiased variable
              selection and statistical stopping criterion are implemented in 
@@ -80,9 +81,11 @@
              for random forest algorithms. </li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
-             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages. Lasso with
-             simultaneous updates for groups of parameters (groupwise lasso) 
-             is available in package <pkg>grplasso</pkg>.
+             <pkg>lasso2</pkg> and <pkg>lars</pkg> packages.  Lasso with
+             simultaneous updates for groups of parameters (groupwise lasso)
+             is available in package <pkg>grplasso</pkg>; the
+             <pkg>grpreg</pkg> package implements a number of other group
+             penalization models, such as group MCP and group SCAD.
              The L1 regularization path for generalized linear models and
              Cox models can be obtained from functions available in package 
              <pkg>glmpath</pkg>, the entire lasso or elastic-net regularization path (also in <pkg>elasticnet</pkg>)
@@ -184,6 +187,7 @@
     <pkg>Boruta</pkg>
     <pkg>BPHO</pkg>
     <pkg>bst</pkg>
+    <pkg>C50</pkg>
     <pkg>caret</pkg>
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
@@ -201,6 +205,7 @@
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
     <pkg>grplasso</pkg>
+    <pkg>grpreg</pkg>
     <pkg>hda</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
