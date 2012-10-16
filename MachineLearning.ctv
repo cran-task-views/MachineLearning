@@ -54,7 +54,7 @@
              random effects are offered by packages <pkg>REEMtree</pkg>
              and <pkg>longRPart</pkg>
              and trees tailored for ordinal responses by package 
-             <pkg>rpartOrdinal</pkg>. Partitioning of mixed models
+             <pkg>rpartOrdinal</pkg>. Partitioning of mixture models
              is performed by <pkg>RPMM</pkg>.
              <br/>
              Computational infrastructure for representing trees and
