@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2012-10-11</version>
+  <version>2012-10-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -143,8 +143,8 @@
              are available from package <pkg>BPHO</pkg> and Bayesian naive Bayes models 
              for binary classification with bias corrected feature selection is implemented in
              package <pkg>predbayescor</pkg>.</li>
-      <li><i>Optimization using Genetic Algorithms</i> Packages <pkg>gafit</pkg>,
-             <pkg>rgp</pkg>, and
+      <li><i>Optimization using Genetic Algorithms</i>:
+             Packages <pkg>rgp</pkg> and
              <pkg>rgenoud</pkg> offer optimization routines based on genetic algorithms. </li>
       <li><i>Association Rules</i>: Package
              <pkg>arules</pkg> provides both data structures for efficient
@@ -197,7 +197,6 @@
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
-    <pkg>gafit</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
     <pkg priority="core">gbm</pkg>
