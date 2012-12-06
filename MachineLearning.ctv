@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2012-10-30</version>
+  <version>2012-12-06</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -52,9 +52,7 @@
              problem via extra splits is available in package <pkg>TWIX</pkg>.
              <br/> Trees for modelling longitudinal data by means of
              random effects are offered by packages <pkg>REEMtree</pkg>
-             and <pkg>longRPart</pkg>
-             and trees tailored for ordinal responses by package 
-             <pkg>rpartOrdinal</pkg>. Partitioning of mixture models
+             and <pkg>longRPart</pkg>. Partitioning of mixture models
              is performed by <pkg>RPMM</pkg>.
              <br/>
              Computational infrastructure for representing trees and
@@ -239,7 +237,6 @@
     <pkg>rminer</pkg>
     <pkg>ROCR</pkg>
     <pkg priority="core">rpart</pkg>
-    <pkg>rpartOrdinal</pkg>
     <pkg>RPMM</pkg>
     <pkg>RSNNS</pkg>
     <pkg>RWeka</pkg>
