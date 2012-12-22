@@ -137,9 +137,7 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
-             Bayesian naive Bayes models 
-             for binary classification with bias corrected feature selection is implemented in
-             package <pkg>predbayescor</pkg>.</li>
+             </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Packages <pkg>rgp</pkg> and
              <pkg>rgenoud</pkg> offer optimization routines based on genetic algorithms. </li>
@@ -221,7 +219,6 @@
     <pkg>partykit</pkg>
     <pkg>penalized</pkg>
     <pkg>penalizedSVM</pkg>
-    <pkg>predbayescor</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomSurvivalForest</pkg>
