@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2012-12-06</version>
+  <version>2012-12-22</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -137,8 +137,7 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
-             Bayesian logistic regression models that consider the high-order interactions
-             are available from package <pkg>BPHO</pkg> and Bayesian naive Bayes models 
+             Bayesian naive Bayes models 
              for binary classification with bias corrected feature selection is implemented in
              package <pkg>predbayescor</pkg>.</li>
       <li><i>Optimization using Genetic Algorithms</i>:
@@ -183,7 +182,6 @@
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
     <pkg>Boruta</pkg>
-    <pkg>BPHO</pkg>
     <pkg>bst</pkg>
     <pkg>C50</pkg>
     <pkg>caret</pkg>
