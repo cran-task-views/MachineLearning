@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2012-12-22</version>
+  <version>2013-01-29</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -42,13 +42,10 @@
              <pkg>party</pkg> as well.
              <br/>
              An adaptation of <pkg>rpart</pkg> for multivariate responses
-             is available in package <pkg>mvpart</pkg>. A tree algorithm fitting 
-             nearest neighbors in each node is implemented in package 
-             <pkg>knnTree</pkg>. For problems with binary input variables
+             is available in package <pkg>mvpart</pkg>. For problems with binary input variables
              the package <pkg>LogicReg</pkg> implements logic regression.
              Graphical tools for the visualization of
-             trees are available in packages <pkg>maptree</pkg> and 
-             <pkg>pinktoe</pkg>. An approach to deal with the instability
+             trees are available in package <pkg>maptree</pkg>. An approach to deal with the instability
              problem via extra splits is available in package <pkg>TWIX</pkg>.
              <br/> Trees for modelling longitudinal data by means of
              random effects are offered by packages <pkg>REEMtree</pkg>
@@ -209,6 +206,7 @@
     <pkg>LogicForest</pkg>
     <pkg>LogicReg</pkg>
     <pkg>longRPart</pkg>
+    <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
     <pkg>ncvreg</pkg>
