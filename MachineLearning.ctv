@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-01-29</version>
+  <version>2013-02-19</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -73,7 +73,9 @@
              <pkg>LogicForest</pkg> is a forest of logic regression trees (package
              <pkg>LogicReg</pkg>.
              The <pkg>varSelRF</pkg> and <pkg>Boruta</pkg> packages focus on variable selection by means
-             for random forest algorithms. </li>
+             for random forest algorithms. For large data sets, package <pkg>bigrf</pkg> 
+             computes random forests in parallel and uses large memory objects 
+             to store the data.</li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
              <pkg>lasso2</pkg> and <pkg>lars</pkg> packages.  Lasso with
@@ -176,6 +178,7 @@
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
+    <pkg>bigrf</pkg>
     <pkg>Boruta</pkg>
     <pkg>bst</pkg>
     <pkg>C50</pkg>
