@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-03-23</version>
+  <version>2013-04-09</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -66,7 +66,8 @@
              ensemble learning. In addition, a random forest variant for
              response variables measured at arbitrary scales based on
              conditional inference trees is implemented in package <pkg>party</pkg>.
-             Quantile regression forests <pkg>quantregForest</pkg>
+             <pkg>randomSurvivalForest</pkg> offers a random forest algorithm for
+             censored data. Quantile regression forests <pkg>quantregForest</pkg>
              allow to regress quantiles of a numeric response on exploratory
              variables via a random forest approach. For binary data,
              <pkg>LogicForest</pkg> is a forest of logic regression trees (package
@@ -221,6 +222,7 @@
     <pkg>penalizedSVM</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
+    <pkg>randomSurvivalForest</pkg>
     <pkg>rattle</pkg>
     <pkg>rda</pkg>
     <pkg>rdetools</pkg>
