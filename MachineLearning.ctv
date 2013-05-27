@@ -109,8 +109,8 @@
              The <pkg>ncvreg</pkg> package fits linear and logistic
              regression models under the the SCAD and MCP 
              regression penalties using a coordinate descent algorithm.
-             High-throughput ridge regression (i.e., penalization with many predictor variables) and 
-             heteroscedastic effects models are the focus of the <pkg>bigRR</pkg> package.</li> 
+	     High-throughput ridge regression (i.e., penalization with many predictor variables) and
+	     heteroskedastic effects models are the focus of the <pkg>bigRR</pkg> package.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). The Hinge-loss is optimized by the boosting implementation 
