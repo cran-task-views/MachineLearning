@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-04-18</version>
+  <version>2013-05-27</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -108,7 +108,9 @@
              the LIBLINEAR library.
              The <pkg>ncvreg</pkg> package fits linear and logistic
              regression models under the the SCAD and MCP 
-             regression penalties using a coordinate descent algorithm.</li> 
+             regression penalties using a coordinate descent algorithm.
+             High-throughput ridge regression (i.e., penalization with many predictor variables) and 
+             heteroscedastic effects models are the focus of the <pkg>bigRR</pkg> package.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). The Hinge-loss is optimized by the boosting implementation 
@@ -188,6 +190,7 @@
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
     <pkg>bigrf</pkg>
+    <pkg>bigRR</pkg>
     <pkg>Boruta</pkg>
     <pkg>bst</pkg>
     <pkg>C50</pkg>
