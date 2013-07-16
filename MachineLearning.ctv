@@ -48,9 +48,8 @@
              trees are available in package <pkg>maptree</pkg>. An approach to deal with the instability
              problem via extra splits is available in package <pkg>TWIX</pkg>.
              <br/> Trees for modelling longitudinal data by means of
-             random effects are offered by packages <pkg>REEMtree</pkg>
-             and <pkg>longRPart</pkg>. Partitioning of mixture models
-             is performed by <pkg>RPMM</pkg>.
+             random effects is offered by package <pkg>REEMtree</pkg>.
+	     Partitioning of mixture models is performed by <pkg>RPMM</pkg>.
              <br/>
              Computational infrastructure for representing trees and
              unified methods for predition and visualization is implemented
@@ -223,7 +222,6 @@
     <pkg>LiblineaR</pkg>
     <pkg>LogicForest</pkg>
     <pkg>LogicReg</pkg>
-    <pkg>longRPart</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mvpart</pkg>
