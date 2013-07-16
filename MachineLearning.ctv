@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-05-27</version>
+  <version>2013-07-16</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -91,6 +91,8 @@
              The <pkg>penalized</pkg> package provides
              an alternative implementation of lasso (L1) and ridge (L2) 
              penalized regression models (both GLM and Cox models).
+             Package <pkg>RXshrink</pkg> can be used to identify and display TRACEs 
+             for a specified shrinkage path and to determine the appropriate extent of shrinkage.
              Semiparametric additive hazards models under lasso penalties are offered
              by package <pkg>ahaz</pkg>.
              A generalisation of the Lasso shrinkage technique for linear regression
@@ -250,6 +252,7 @@
     <pkg>RPMM</pkg>
     <pkg>RSNNS</pkg>
     <pkg>RWeka</pkg>
+    <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>SDDA</pkg>
     <pkg>svmpath</pkg>
