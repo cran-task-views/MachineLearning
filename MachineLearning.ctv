@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-07-16</version>
+  <version>2013-07-26</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -68,9 +68,7 @@
              <pkg>randomSurvivalForest</pkg> offers a random forest algorithm for
              censored data. Quantile regression forests <pkg>quantregForest</pkg>
              allow to regress quantiles of a numeric response on exploratory
-             variables via a random forest approach. For binary data,
-             <pkg>LogicForest</pkg> is a forest of logic regression trees (package
-             <pkg>LogicReg</pkg>.
+             variables via a random forest approach.
              The <pkg>varSelRF</pkg> and <pkg>Boruta</pkg> packages focus on variable selection by means
              for random forest algorithms. For large data sets, package <pkg>bigrf</pkg> 
              computes random forests in parallel and uses large memory objects 
@@ -220,7 +218,6 @@
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
-    <pkg>LogicForest</pkg>
     <pkg>LogicReg</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
