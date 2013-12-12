@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2013-07-31</version>
+  <version>2013-12-12</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -94,6 +94,8 @@
              by package <pkg>ahaz</pkg>.
              A generalisation of the Lasso shrinkage technique for linear regression
              is called relaxed lasso and is available in package <pkg>relaxo</pkg>.
+             Fisher's LDA projection with an optional LASSO penalty to produce sparse 
+             solutions is implemented in package  <pkg>penalizedLDA</pkg>.
              The shrunken
              centroids classifier and utilities for gene expression analyses are
              implemented in package <pkg>pamr</pkg>. An implementation
@@ -232,6 +234,7 @@
     <pkg>party</pkg>
     <pkg>partykit</pkg>
     <pkg>penalized</pkg>
+    <pkg>penalizedLDA</pkg>
     <pkg>penalizedSVM</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
