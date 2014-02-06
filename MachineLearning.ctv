@@ -159,7 +159,9 @@
       <li><i>Fuzzy Rule-based Systems</i>:
              Package <pkg>frbs</pkg> implements a host of standard 
              methods for learning fuzzy rule-based systems from data 
-             for regression and classification.</li>
+             for regression and classification. Package <pkg>RoughSets</pkg> provides comprehensive implementations of the
+             rough set theory (RST) and the fuzzy rough set theory (FRST) in a single
+             package.</li>
       <li><i>Model selection and validation</i>: Package <pkg>e1071</pkg>
              has function <code>tune()</code> for hyper parameter tuning and 
              function <code>errorest()</code> (<pkg>ipred</pkg>) can be used for
@@ -249,6 +251,7 @@
     <pkg>Rmalschains</pkg>
     <pkg>rminer</pkg>
     <pkg>ROCR</pkg>
+    <pkg>RoughSets</pkg>
     <pkg priority="core">rpart</pkg>
     <pkg>RPMM</pkg>
     <pkg>RSNNS</pkg>
