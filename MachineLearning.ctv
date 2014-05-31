@@ -189,7 +189,6 @@
   <packagelist>
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
-    <pkg>BayesTree</pkg>
     <pkg>bigrf</pkg>
     <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
