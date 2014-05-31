@@ -52,9 +52,9 @@
              <br/>
              Computational infrastructure for representing trees and
              unified methods for predition and visualization is implemented
-             in <pkg>partykit</pkg>. This infrastructure is used by
-             package <pkg>evtree</pkg> to implement evolutionary learning 
-             of globally optimal trees.
+             in <pkg>partykit</pkg>.
+	     <!-- This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
+             of globally optimal trees. -->
              Oblique trees are available in package <pkg>oblique.tree</pkg>.</li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
@@ -200,7 +200,6 @@
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
-    <pkg>evtree</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
