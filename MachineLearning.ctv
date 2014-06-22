@@ -23,7 +23,7 @@
              Package <pkg>rpart</pkg> is recommended for computing CART-like
              trees. 
              A rich toolbox of partitioning algorithms is available in
-             <A HREF="http://www.cs.waikato.ac.nz/~ml/weka/">Weka</A>, 
+             <a href="http://www.cs.waikato.ac.nz/~ml/weka/">Weka</a>, 
              package <pkg>RWeka</pkg> provides an interface to this
              implementation, including the J4.8-variant of C4.5 and M5.
              The <pkg>Cubist</pkg> package fits rule-based models (similar
@@ -173,8 +173,8 @@
              with various parallel implementations (e.g. MPI, NWS etc).</li>
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
-             <A HREF="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
-             Inference, and Prediction</A> by Trevor Hastie, Robert Tibshirani and 
+             <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
+             Inference, and Prediction</a> by Trevor Hastie, Robert Tibshirani and 
              Jerome Friedman have been packaged and are available as
              <pkg>ElemStatLearn</pkg>.</li>
       <li><i>GUI</i><pkg>rattle</pkg> is a graphical user interface for data mining in R.</li>
