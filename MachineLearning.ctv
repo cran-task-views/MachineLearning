@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-05-31</version>
+  <version>2014-07-01</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -53,8 +53,8 @@
              Computational infrastructure for representing trees and
              unified methods for predition and visualization is implemented
              in <pkg>partykit</pkg>.
-	     <!-- This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
-             of globally optimal trees. -->
+	     This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
+             of globally optimal trees.
              Oblique trees are available in package <pkg>oblique.tree</pkg>.</li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
@@ -203,6 +203,7 @@
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
+    <pkg>evtree</pkg>
     <pkg>frbs</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
