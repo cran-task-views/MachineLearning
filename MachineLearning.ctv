@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-07-16</version>
+  <version>2014-07-18</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -184,6 +184,10 @@
   several feature selection methods. Similar, package <pkg>rminer</pkg> interfaces
   several learning algorithms implemented in other packages and computes
   several performance measures.
+  <pkg>h2o</pkg> is an R-interface to the <A HREF="https://github.com/0xdata/h2o">H20</A> 
+  framework for
+  distributed and parallel computing which includes implementations of Deeplearning, 
+  GLMs, Gradient Boosted Machines, Random Forests, PCA, and KMeans.
   </info>
 
   <packagelist>
@@ -213,6 +217,7 @@
     <pkg>GMMBoost</pkg>
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
+    <pkg>h2o</pkg>
     <pkg>hda</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
