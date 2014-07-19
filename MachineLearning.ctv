@@ -184,7 +184,7 @@
   several feature selection methods. Similar, package <pkg>rminer</pkg> interfaces
   several learning algorithms implemented in other packages and computes
   several performance measures.
-  <pkg>h2o</pkg> is an R-interface to the <A HREF="https://github.com/0xdata/h2o">H20</A> 
+  <pkg>h2o</pkg> is an R-interface to the <a href="https://github.com/0xdata/h2o">H20</a> 
   framework for
   distributed and parallel computing which includes implementations of Deeplearning, 
   GLMs, Gradient Boosted Machines, Random Forests, PCA, and KMeans.
