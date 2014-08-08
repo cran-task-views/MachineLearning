@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-07-18</version>
+  <version>2014-08-08</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -109,8 +109,6 @@
              The <pkg>ncvreg</pkg> package fits linear and logistic
              regression models under the the SCAD and MCP 
              regression penalties using a coordinate descent algorithm.
-	     High-throughput ridge regression (i.e., penalization with many predictor variables) and
-	     heteroskedastic effects models are the focus of the <pkg>bigRR</pkg> package.
              An implementation of bundle methods for regularized risk minimization 
              is available form package <pkg>bmrm</pkg>.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
@@ -194,7 +192,6 @@
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
     <pkg>bigrf</pkg>
-    <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
     <pkg>Boruta</pkg>
     <pkg>bst</pkg>
