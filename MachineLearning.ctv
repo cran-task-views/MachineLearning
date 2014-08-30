@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-08-08</version>
+  <version>2014-08-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -103,8 +103,8 @@
              in SVMs in penalized models (SCAD or L1 penalties) is implemented
              in package <pkg>penalizedSVM</pkg>. Various forms of
              penalized discriminant analysis are implemented in 
-             packages <pkg>hda</pkg>, <pkg>rda</pkg>, <pkg>sda</pkg>, and
-             <pkg>SDDA</pkg>. Package <pkg>LiblineaR</pkg> offers an interface to 
+             packages <pkg>hda</pkg>, <pkg>rda</pkg>, and <pkg>sda</pkg>.
+	     Package <pkg>LiblineaR</pkg> offers an interface to 
              the LIBLINEAR library.
              The <pkg>ncvreg</pkg> package fits linear and logistic
              regression models under the the SCAD and MCP 
@@ -255,7 +255,6 @@
     <pkg>RWeka</pkg>
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
-    <pkg>SDDA</pkg>
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
