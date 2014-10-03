@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-10-02</version>
+  <version>2014-10-03</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -168,8 +168,10 @@
              Package <pkg>caret</pkg> provides miscellaneous functions 
              for building predictive models, including parameter tuning 
              and  variable importance measures. The package can be used 
-             with various parallel implementations (e.g. MPI, NWS etc). Package <pkg>stabs</pkg> implements
-             stability selection for a range of models.</li>
+             with various parallel implementations (e.g. MPI, NWS etc). 
+             Packages <pkg>hdi</pkg> and <pkg>stabs</pkg> implement stability 
+             selection for a range of models, <pkg>hdi</pkg>
+             also offers other inference procedures in high-dimensional models.</li>
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
              <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
@@ -212,6 +214,7 @@
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
+    <pkg>hdi</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
