@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-11-26</version>
+  <version>2014-12-13</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -44,8 +44,7 @@
              Tree-structured varying coefficient models are implemented in
              package <pkg>vcrpart</pkg>.
              <br/>
-             An adaptation of <pkg>rpart</pkg> for multivariate responses
-             is available in package <pkg>mvpart</pkg>. For problems with binary input variables
+             For problems with binary input variables
              the package <pkg>LogicReg</pkg> implements logic regression.
              Graphical tools for the visualization of
              trees are available in package <pkg>maptree</pkg>.
@@ -228,7 +227,6 @@
     <pkg>LogicReg</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
-    <pkg>mvpart</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>oblique.tree</pkg>
