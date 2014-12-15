@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2014-12-13</version>
+  <version>2014-12-15</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -168,13 +168,16 @@
              Functions for ROC analysis and other visualisation techniques 
              for comparing candidate classifiers are available from package 
              <pkg>ROCR</pkg>.
+             Packages <pkg>hdi</pkg> and <pkg>stabs</pkg> implement stability 
+             selection for a range of models, <pkg>hdi</pkg>
+             also offers other inference procedures in high-dimensional models.</li>
+      <li><i>Meta packages</i>:
              Package <pkg>caret</pkg> provides miscellaneous functions 
              for building predictive models, including parameter tuning 
              and  variable importance measures. The package can be used 
              with various parallel implementations (e.g. MPI, NWS etc). 
-             Packages <pkg>hdi</pkg> and <pkg>stabs</pkg> implement stability 
-             selection for a range of models, <pkg>hdi</pkg>
-             also offers other inference procedures in high-dimensional models.</li>
+             In a similar spirit, package <pkg>mlr</pkg> offers a high-level interface
+             to various statistical and machine learning packages.</li>
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
              <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
@@ -227,6 +230,7 @@
     <pkg>LogicReg</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
+    <pkg>mlr</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>oblique.tree</pkg>
