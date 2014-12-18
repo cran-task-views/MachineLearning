@@ -138,7 +138,10 @@
              The relevant dimension in kernel feature spaces can be estimated
              using <pkg>rdetools</pkg> which also offers procedures for model selection
              and prediction.</li>
-      <li><i>Bayesian Methods</i>: 
+      <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
+             where the final model is defined in terms of the sum over
+             many weak learners (not unlike ensemble methods), 
+             are implemented in package <pkg>BayesTree</pkg>. 
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
@@ -200,6 +203,7 @@
   <packagelist>
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
+    <pkg>BayesTree</pkg>
     <pkg>bigrf</pkg>
     <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
