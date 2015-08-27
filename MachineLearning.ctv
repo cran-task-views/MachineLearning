@@ -15,7 +15,8 @@
       <li><i>Neural Networks</i>: Single-hidden-layer neural network are 
              implemented in package <pkg>nnet</pkg> (shipped with base R).
              Package <pkg>RSNNS</pkg> offers an interface to the Stuttgart 
-             Neural Network Simulator (SNNS).</li>
+             Neural Network Simulator (SNNS). An interface to the FCNN library allows
+             user-extensible artificial neural networks in package <pkg>FCNN4R</pkg>.</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -219,6 +220,7 @@
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
     <pkg>evtree</pkg>
+    <pkg>FCNN4R</pkg>
     <pkg>frbs</pkg>
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
