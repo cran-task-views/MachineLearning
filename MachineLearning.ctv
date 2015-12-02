@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2015-11-21</version>
+  <version>2015-12-02</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -145,6 +145,7 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
+             Discrete Bayesian networks can be fitted using <pkg>bnclassify</pkg>.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Packages <pkg>rgp</pkg> and
@@ -183,8 +184,14 @@
              for building predictive models, including parameter tuning 
              and  variable importance measures. The package can be used 
              with various parallel implementations (e.g. MPI, NWS etc). 
-             In a similar spirit, package <pkg>mlr</pkg> offers a high-level interface
-             to various statistical and machine learning packages.</li>
+             In a similar spirit, package <pkg>mlr</pkg> offers a high-level 
+             interface
+             to various statistical and machine learning packages. Package
+             <pkg>superlearner</pkg> implements a similar toolbox.
+             The <pkg>h2o</pkg> package implements a general purpose machine learning
+             platform that has scalable implementations of many popular algorithms such
+             as random forest, GBM, GLM (with elastic net regularization), and deep
+             learning (feedforward multilayer networks), among others.</li>
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
              <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
@@ -206,6 +213,7 @@
     <pkg>BayesTree</pkg>
     <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
+    <pkg>bnclassify</pkg>
     <pkg>Boruta</pkg>
     <pkg>bst</pkg>
     <pkg>C50</pkg>
@@ -230,6 +238,7 @@
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
     <pkg>hdi</pkg>
+    <pkg>h2o</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
@@ -273,6 +282,7 @@
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>stabs</pkg>
+    <pkg>superlearner</pkg>
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
