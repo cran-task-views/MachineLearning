@@ -187,7 +187,7 @@
              In a similar spirit, package <pkg>mlr</pkg> offers a high-level 
              interface
              to various statistical and machine learning packages. Package
-             <pkg>superlearner</pkg> implements a similar toolbox.
+             <pkg>SuperLearner</pkg> implements a similar toolbox.
              The <pkg>h2o</pkg> package implements a general purpose machine learning
              platform that has scalable implementations of many popular algorithms such
              as random forest, GBM, GLM (with elastic net regularization), and deep
@@ -282,7 +282,7 @@
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>stabs</pkg>
-    <pkg>superlearner</pkg>
+    <pkg>SuperLearner</pkg>
     <pkg>svmpath</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
