@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2015-12-02</version>
+  <version>2016-02-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -117,7 +117,10 @@
 	     High-throughput ridge regression (i.e., penalization with many predictor variables) and
 	     heteroskedastic effects models are the focus of the <pkg>bigRR</pkg> package.
              An implementation of bundle methods for regularized risk minimization 
-             is available form package <pkg>bmrm</pkg>.</li> 
+             is available form package <pkg>bmrm</pkg>. The Lasso under non-Gaussian and 
+             heteroscedastic errors is estimated by <pkg>hdm</pkg>,
+             inference on low-dimensional components of Lasso regression and of estimated treatment 
+             effects in a high-dimensional setting are also contained.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). The Hinge-loss is optimized by the boosting implementation 
@@ -145,7 +148,7 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
-             Discrete Bayesian networks can be fitted using <pkg>bnclassify</pkg>.
+             Discrete Bayesian network classifiers can be fitted using <pkg>bnclassify</pkg>.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Packages <pkg>rgp</pkg> and
@@ -238,6 +241,7 @@
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
     <pkg>hdi</pkg>
+    <pkg>hdm</pkg>
     <pkg>h2o</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
