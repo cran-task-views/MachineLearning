@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2016-02-24</version>
+  <version>2016-05-02</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -148,7 +148,6 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
-             Discrete Bayesian network classifiers can be fitted using <pkg>bnclassify</pkg>.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Packages <pkg>rgp</pkg> and
@@ -216,7 +215,6 @@
     <pkg>BayesTree</pkg>
     <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
-    <pkg>bnclassify</pkg>
     <pkg>Boruta</pkg>
     <pkg>bst</pkg>
     <pkg>C50</pkg>
