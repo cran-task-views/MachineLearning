@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2016-05-02</version>
+  <version>2016-06-02</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -120,7 +120,8 @@
              is available form package <pkg>bmrm</pkg>. The Lasso under non-Gaussian and 
              heteroscedastic errors is estimated by <pkg>hdm</pkg>,
              inference on low-dimensional components of Lasso regression and of estimated treatment 
-             effects in a high-dimensional setting are also contained.</li> 
+             effects in a high-dimensional setting are also contained. Package <pkg>SIS</pkg>
+             implements sure independence screening in generalised linear and Cox models.</li> 
       <li><i>Boosting</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). The Hinge-loss is optimized by the boosting implementation 
@@ -283,6 +284,7 @@
     <pkg>RWeka</pkg>
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
+    <pkg>SIS</pkg>
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
     <pkg>svmpath</pkg>
