@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2016-06-02</version>
+  <version>2016-06-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -182,6 +182,12 @@
              Packages <pkg>hdi</pkg> and <pkg>stabs</pkg> implement stability 
              selection for a range of models, <pkg>hdi</pkg>
              also offers other inference procedures in high-dimensional models.</li>
+      <li><i>Other procedures</i>: Evidential classifiers quantify the uncertainty about the
+             class of a test pattern using a Dempster-Shafer mass function in package <pkg>evclass</pkg>.
+             The <pkg>OneR</pkg> (One Rule) package offers a classification algorithm with 
+             enhancements for sophisticated handling of missing values and numeric data 
+             together with extensive diagnostic functions.</li>
+
       <li><i>Meta packages</i>:
              Package <pkg>caret</pkg> provides miscellaneous functions 
              for building predictive models, including parameter tuning 
@@ -227,6 +233,7 @@
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
+    <pkg>evclass</pkg>
     <pkg>evtree</pkg>
     <pkg>FCNN4R</pkg>
     <pkg>frbs</pkg>
@@ -256,6 +263,7 @@
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>oblique.tree</pkg>
+    <pkg>OneR</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>partykit</pkg>
