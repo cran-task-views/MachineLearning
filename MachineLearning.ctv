@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2016-06-24</version>
+  <version>2016-11-18</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -16,7 +16,8 @@
              implemented in package <pkg>nnet</pkg> (shipped with base R).
              Package <pkg>RSNNS</pkg> offers an interface to the Stuttgart 
              Neural Network Simulator (SNNS). An interface to the FCNN library allows
-             user-extensible artificial neural networks in package <pkg>FCNN4R</pkg>.</li>
+             user-extensible artificial neural networks in package <pkg>FCNN4R</pkg>.
+             <pkg>rnn</pkg> implements recurrent neural networks.</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -141,7 +142,7 @@
 	     <pkg>klaR</pkg>.
              The relevant dimension in kernel feature spaces can be estimated
              using <pkg>rdetools</pkg> which also offers procedures for model selection
-             and prediction.</li>
+             and prediction. Package <pkg>gmum.r</pkg> offers an R interface to LIBSVM and SVMLight.</li>
       <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
              where the final model is defined in terms of the sum over
              many weak learners (not unlike ensemble methods), 
@@ -186,8 +187,7 @@
              class of a test pattern using a Dempster-Shafer mass function in package <pkg>evclass</pkg>.
              The <pkg>OneR</pkg> (One Rule) package offers a classification algorithm with 
              enhancements for sophisticated handling of missing values and numeric data 
-             together with extensive diagnostic functions.</li>
-
+             together with extensive diagnostic functions. <pkg>spa</pkg> combines feature-based and graph-based data for prediction of some response.</li>
       <li><i>Meta packages</i>:
              Package <pkg>caret</pkg> provides miscellaneous functions 
              for building predictive models, including parameter tuning 
@@ -243,6 +243,7 @@
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
+    <pkg>gmum.r</pkg>
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
@@ -284,6 +285,7 @@
     <pkg>rgp</pkg>
     <pkg>Rmalschains</pkg>
     <pkg>rminer</pkg>
+    <pkg>rnn</pkg>
     <pkg>ROCR</pkg>
     <pkg>RoughSets</pkg>
     <pkg priority="core">rpart</pkg>
@@ -293,6 +295,7 @@
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>SIS</pkg>
+    <pkg>spa</pkg>
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
     <pkg>svmpath</pkg>
