@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2016-11-18</version>
+  <version>2017-01-06</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -92,7 +92,9 @@
              logistic and multinomial regression models can be obtained from package <pkg>glmnet</pkg>.
              The <pkg>penalized</pkg> package provides
              an alternative implementation of lasso (L1) and ridge (L2) 
-             penalized regression models (both GLM and Cox models).
+             penalized regression models (both GLM and Cox models). Package <pkg>biglasso</pkg> fits
+             Gaussian and logistic linear models under L1 penalty when the data
+             can't be stored in RAM.
              Package <pkg>RXshrink</pkg> can be used to identify and display TRACEs 
              for a specified shrinkage path and to determine the appropriate extent of shrinkage.
              Semiparametric additive hazards models under lasso penalties are offered
@@ -220,6 +222,7 @@
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
     <pkg>BayesTree</pkg>
+    <pkg>biglasso</pkg>
     <pkg>bigRR</pkg>
     <pkg>bmrm</pkg>
     <pkg>Boruta</pkg>
