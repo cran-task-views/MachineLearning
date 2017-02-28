@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-01-06</version>
+  <version>2017-01-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -166,7 +166,10 @@
              handling of sparse binary data as well as interfaces to
              implementations of Apriori and Eclat for mining
              frequent itemsets, maximal frequent itemsets, closed 
-             frequent itemsets and association rules.</li>
+             frequent itemsets and association rules. Package
+             <pkg>opusminer</pkg> provides an
+             interface to the OPUS Miner algorithm (implemented in C++) for finding the key associations in
+             transaction data efficiently, in the form of self-sufficient itemsets, using either leverage or lift.</li>
       <li><i>Fuzzy Rule-based Systems</i>:
              Package <pkg>frbs</pkg> implements a host of standard 
              methods for learning fuzzy rule-based systems from data 
@@ -268,6 +271,7 @@
     <pkg priority="core">nnet</pkg>
     <pkg>oblique.tree</pkg>
     <pkg>OneR</pkg>
+    <pkg>opusminer</pkg>
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>partykit</pkg>
