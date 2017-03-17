@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-01-28</version>
+  <version>2017-03-17</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -125,7 +125,7 @@
              inference on low-dimensional components of Lasso regression and of estimated treatment 
              effects in a high-dimensional setting are also contained. Package <pkg>SIS</pkg>
              implements sure independence screening in generalised linear and Cox models.</li> 
-      <li><i>Boosting</i>: Various forms of gradient boosting are
+      <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). The Hinge-loss is optimized by the boosting implementation 
              in package <pkg>bst</pkg>. Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
@@ -134,7 +134,10 @@
              package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
              is implemented in <pkg>CoxBoost</pkg> and for mixed models in
              <pkg>GMMBoost</pkg>.
-             GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.</li>
+             GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.
+             An implementation of various learning algorithms based on
+             Gradient Descent for dealing with regression tasks is available
+             in package <pkg>GradDescent</pkg>.</li>
       <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
@@ -250,6 +253,7 @@
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
     <pkg>gmum.r</pkg>
+    <pkg>GradDescent</pkg>
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
