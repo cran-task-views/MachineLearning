@@ -137,7 +137,7 @@
              GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.
              An implementation of various learning algorithms based on
              Gradient Descent for dealing with regression tasks is available
-             in package <pkg>GradDescent</pkg>.</li>
+             in package <pkg>gradDescent</pkg>.</li>
       <li><i>Support Vector Machines and Kernel Methods</i>: The function <code>svm()</code> from 
              <pkg>e1071</pkg> offers an interface to the LIBSVM library and
              package <pkg>kernlab</pkg> implements a flexible framework 
@@ -253,7 +253,7 @@
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
     <pkg>gmum.r</pkg>
-    <pkg>GradDescent</pkg>
+    <pkg>gradDescent</pkg>
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
