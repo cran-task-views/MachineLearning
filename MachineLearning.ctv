@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-03-17</version>
+  <version>2017-03-22</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -127,7 +127,10 @@
              implements sure independence screening in generalised linear and Cox models.</li> 
       <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
-             descent boosting). The Hinge-loss is optimized by the boosting implementation 
+             descent boosting). Package <pkg>xgboost</pkg> implements
+             tree-based boosting using efficient trees as base learners for
+             several and also user-defined objective functions.
+             The Hinge-loss is optimized by the boosting implementation 
              in package <pkg>bst</pkg>. Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
              by a boosting algorithm. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
@@ -314,6 +317,7 @@
     <pkg>tree</pkg>
     <pkg>varSelRF</pkg>
     <pkg>vcrpart</pkg>
+    <pkg>xgboost</pkg>
   </packagelist>
 
   <links>
