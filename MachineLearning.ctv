@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-03-22</version>
+  <version>2017-04-07</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -12,12 +12,20 @@
 
     The packages can be roughly structured into the following topics:
     <ul>
-      <li><i>Neural Networks</i>: Single-hidden-layer neural network are 
+      <li><i>Neural Networks and Deep Learning</i>: Single-hidden-layer neural network are 
              implemented in package <pkg>nnet</pkg> (shipped with base R).
              Package <pkg>RSNNS</pkg> offers an interface to the Stuttgart 
              Neural Network Simulator (SNNS). An interface to the FCNN library allows
              user-extensible artificial neural networks in package <pkg>FCNN4R</pkg>.
-             <pkg>rnn</pkg> implements recurrent neural networks.</li>
+             <pkg>rnn</pkg> implements recurrent neural networks.
+             Packages implementing deep learning flavours of neural networks
+             include <pkg>darch</pkg> (restricted Boltzmann machine, deep belief
+             network), <pkg>deepnet</pkg> (feed-forward neural network, 
+             restricted Boltzmann machine, deep belief network, stacked
+             autoencoders), <pkg>RcppDL</pkg> (denoising autoencoder, 
+             stacked denoising autoencoder, restricted Boltzmann machine,
+             deep belief network) and <pkg>h2o</pkg> 
+             (feed-forward neural network, deep autoencoders). </li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -241,6 +249,8 @@
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
+    <pkg>darch</pkg>
+    <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
@@ -291,6 +301,7 @@
     <pkg>ranger</pkg>
     <pkg>rattle</pkg>
     <pkg>Rborist</pkg>
+    <pkg>RcppDL</pkg>
     <pkg>rda</pkg>
     <pkg>rdetools</pkg>
     <pkg>relaxo</pkg>
