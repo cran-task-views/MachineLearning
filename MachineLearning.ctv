@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-04-19</version>
+  <version>2017-04-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -88,8 +88,9 @@
              offer R interfaces to fast C++ implementations of random forests.
              Reinforcement Learning Trees, featuring splits in variables
              which will be important down the tree, are implemented in
-             package <pkg>RLT</pkg>.
-             </li>
+             package <pkg>RLT</pkg>.  <pkg>wsrf</pkg> implements an
+             alternative variable weighting method for variable subspace selection 
+             in place of the traditional random variable sampling. </li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
              <pkg>lasso2</pkg> and <pkg>lars</pkg> packages.  Lasso with
@@ -333,6 +334,7 @@
     <pkg>tree</pkg>
     <pkg>varSelRF</pkg>
     <pkg>vcrpart</pkg>
+    <pkg>wsrf</pkg>
     <pkg>xgboost</pkg>
   </packagelist>
 
