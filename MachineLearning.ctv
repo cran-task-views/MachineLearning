@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-04-24</version>
+  <version>2017-04-25</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -67,7 +67,6 @@
              in <pkg>partykit</pkg>.
 	     This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
              of globally optimal trees.
-             Oblique trees are available in package <pkg>oblique.tree</pkg>.
              </li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
@@ -291,7 +290,6 @@
     <pkg>mlr</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
-    <pkg>oblique.tree</pkg>
     <pkg>OneR</pkg>
     <pkg>opusminer</pkg>
     <pkg>pamr</pkg>
