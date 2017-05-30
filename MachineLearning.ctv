@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-04-25</version>
+  <version>2017-05-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -66,7 +66,10 @@
              unified methods for predition and visualization is implemented
              in <pkg>partykit</pkg>.
 	     This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
-             of globally optimal trees.
+             of globally optimal trees. Survival trees are available in
+	     various package, <pkg>LTRCtrees</pkg> allows for
+	     left-truncation and interval-censoring in addition to
+	     right-censoring.
              </li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
@@ -170,6 +173,8 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
+             <pkg>MXM</pkg> implements variable selection based on Bayesian
+             networks.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Packages <pkg>rgp</pkg> and
@@ -285,9 +290,11 @@
     <pkg>LiblineaR</pkg>
     <pkg>LogicForest</pkg>
     <pkg>LogicReg</pkg>
+    <pkg>LTRCtrees</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr</pkg>
+    <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>OneR</pkg>
