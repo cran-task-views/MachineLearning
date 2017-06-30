@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-05-30</version>
+  <version>2017-06-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -236,6 +236,33 @@
              Jerome Friedman have been packaged and are available as
              <pkg>ElemStatLearn</pkg>.</li>
       <li><i>GUI</i><pkg>rattle</pkg> is a graphical user interface for data mining in R.</li>
+      <li><i>Visualisation (initially contributed by Brandon Greenwell) </i>
+             The <code>stats::termplot()</code> function package can be used to plot the
+             terms in a model whose predict method supports <code>type="terms"</code>. 
+             The <pkg>effects</pkg> package provides graphical and tabular effect
+             displays for models with a linear predictor (e.g., linear and generalized
+             linear models).  Friedman’s partial dependence plots (PDPs), that are low
+             dimensional graphical renderings of the prediction function, are implemented
+             in a few packages.  <pkg>gbm</pkg>, <pkg>randomForest</pkg> and
+             <pkg>randomForestSRC</pkg> provide their own functions for displaying PDPs,
+             but are limited to the models fit with those packages (the function
+             <code>partialPlot</code> from <pkg>randomForest</pkg> is more limited since
+             it only allows for one predictor at a time).  Packages <pkg>pdp</pkg>,
+             <pkg>plotmo</pkg>, and <pkg>ICEbox</pkg> are more general and allow for the
+             creation of PDPs for a wide variety of machine learning models (e.g., random
+             forests, support vector machines, etc.); both <pkg>pdp</pkg> and
+             <pkg>plotmo</pkg> support multivariate displays (<pkg>plotmo</pkg> is
+             limited to two predictors while <pkg>pdp</pkg> uses trellis graphics to
+             display PDPs involving three predictors).  By default, <pkg>plotmo</pkg>
+             fixes the background variables at their medians (or first level for factors)
+             which is faster than constructing PDPs but incorporates less information. 
+             <pkg>ICEbox</pkg> focuses on constructing individual conditional expectation
+             (ICE) curves, a refinement over Friedman’s PDPs.  ICE curves, as well as
+             centered ICE curves can also be constructed with the <code>partial()</code>
+             function from the <pkg>pdp</pkg> package.  <pkg>ggRandomForest</pkg>
+             provides ggplot2-based tools for the graphical exploration of random forest
+             models (e.g., variable importance plots and PDPs) from the
+             <pkg>randomForest</pkg> and <pkg>randomForestSRC</pkg> packages.</li>
     </ul>
   <pkg>CORElearn</pkg> implements a rather broad class of machine learning
   algorithms, such as nearest neighbors, trees, random forests, and 
@@ -261,6 +288,7 @@
     <pkg>darch</pkg>
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
+    <pkg>effects</pkg>
     <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
@@ -271,6 +299,7 @@
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
     <pkg priority="core">gbm</pkg>
+    <pkg>ggRandomForest</pkg>
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
@@ -282,6 +311,7 @@
     <pkg>hdi</pkg>
     <pkg>hdm</pkg>
     <pkg>h2o</pkg>
+    <pkg>ICEbox</pkg>
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
@@ -302,9 +332,11 @@
     <pkg>pamr</pkg>
     <pkg>party</pkg>
     <pkg>partykit</pkg>
+    <pkg>pdp</pkg>
     <pkg>penalized</pkg>
     <pkg>penalizedLDA</pkg>
     <pkg>penalizedSVM</pkg>
+    <pkg>plotmo</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
     <pkg>randomForestSRC</pkg>
