@@ -257,9 +257,9 @@
              fixes the background variables at their medians (or first level for factors)
              which is faster than constructing PDPs but incorporates less information. 
              <pkg>ICEbox</pkg> focuses on constructing individual conditional expectation
-             (ICE) curves, a refinement over Friedman’s PDPs.  ICE curves, as well as
+             (ICE) curves, a refinement over Friedman's PDPs.  ICE curves, as well as
              centered ICE curves can also be constructed with the <code>partial()</code>
-             function from the <pkg>pdp</pkg> package.  <pkg>ggRandomForest</pkg>
+             function from the <pkg>pdp</pkg> package.  <pkg>ggRandomForests</pkg>
              provides ggplot2-based tools for the graphical exploration of random forest
              models (e.g., variable importance plots and PDPs) from the
              <pkg>randomForest</pkg> and <pkg>randomForestSRC</pkg> packages.</li>
@@ -299,7 +299,7 @@
     <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
     <pkg priority="core">gbm</pkg>
-    <pkg>ggRandomForest</pkg>
+    <pkg>ggRandomForests</pkg>
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
