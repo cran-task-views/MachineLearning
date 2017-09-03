@@ -231,7 +231,7 @@
              learning (feedforward multilayer networks), among others.</li>
       <li><i>Elements of Statistical Learning</i>: Data sets, functions and
              examples from the book 
-             <a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
+             <a href="https://web.stanford.edu/~hastie/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
              Inference, and Prediction</a> by Trevor Hastie, Robert Tibshirani and 
              Jerome Friedman have been packaged and are available as
              <pkg>ElemStatLearn</pkg>.</li>
