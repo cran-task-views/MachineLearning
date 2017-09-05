@@ -377,7 +377,7 @@
 
   <links>
     <a href="http://www.MLOSS.org/">MLOSS: Machine Learning Open Source Software</a>
-    <a href="http://www.boosting.org/">Boosting Research Site</a>
+    <!-- <a href="http://www.boosting.org/">Boosting Research Site</a> -->
   </links>
 
 </CRANTaskView>
