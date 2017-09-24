@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-06-30</version>
+  <version>2017-09-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -25,7 +25,9 @@
              autoencoders), <pkg>RcppDL</pkg> (denoising autoencoder, 
              stacked denoising autoencoder, restricted Boltzmann machine,
              deep belief network) and <pkg>h2o</pkg> 
-             (feed-forward neural network, deep autoencoders). </li>
+             (feed-forward neural network, deep autoencoders). An interface
+             to <A HREF="http://www.tensorflow.org">tensorflow</A> is
+             available in <pkg>tensorflow</pkg>.</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -367,6 +369,7 @@
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
     <pkg>svmpath</pkg>
+    <pkg>tensorflow</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
     <pkg>varSelRF</pkg>
