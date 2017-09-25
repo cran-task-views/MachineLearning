@@ -46,7 +46,7 @@
              Two recursive partitioning algorithms with unbiased variable
              selection and statistical stopping criterion are implemented in 
              package <pkg>party</pkg>. Function <code>ctree()</code> is based on 
-             non-parametrical conditional inference procedures for testing 
+             non-parametric conditional inference procedures for testing 
              independence between response and each input variable whereas
              <code>mob()</code> can be used to partition parametric models.
              Extensible tools for visualizing binary trees
@@ -65,7 +65,7 @@
 	     Partitioning of mixture models is performed by <pkg>RPMM</pkg>.
              <br/>
              Computational infrastructure for representing trees and
-             unified methods for predition and visualization is implemented
+             unified methods for prediction and visualization is implemented
              in <pkg>partykit</pkg>.
 	     This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
              of globally optimal trees. Survival trees are available in
