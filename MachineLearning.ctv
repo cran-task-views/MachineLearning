@@ -179,8 +179,7 @@
              networks.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
-             Packages <pkg>rgp</pkg> and
-             <pkg>rgenoud</pkg> offer optimization routines based on genetic algorithms. 
+             Package <pkg>rgenoud</pkg> offers optimization routines based on genetic algorithms. 
              The package <pkg>Rmalschains</pkg> implements memetic algorithms 
              with local search chains, which are a special type of 
              evolutionary algorithms, combining a steady state genetic 
@@ -351,7 +350,6 @@
     <pkg>relaxo</pkg>
     <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
-    <pkg>rgp</pkg>
     <pkg>RLT</pkg>
     <pkg>Rmalschains</pkg>
     <pkg>rminer</pkg>
