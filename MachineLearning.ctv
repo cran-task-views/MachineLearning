@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2017-09-24</version>
+  <version>2018-01-17</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -45,13 +45,19 @@
              <br/>
              Two recursive partitioning algorithms with unbiased variable
              selection and statistical stopping criterion are implemented in 
-             package <pkg>party</pkg>. Function <code>ctree()</code> is based on 
+             package <pkg>party</pkg> and <pkg>partykit</pkg>. Function <code>ctree()</code> is based on 
              non-parametric conditional inference procedures for testing 
              independence between response and each input variable whereas
              <code>mob()</code> can be used to partition parametric models.
+             Package <pkg>model4you</pkg> can be used to build trees based
+             on more complex models, for example models featuring a
+	     treatment effect to be partitioned. Transformation trees for
+             estimating discrete and continuous predictive distributions based on transformation
+	     models, also allowing censoring and truncation, are available 
+             from package <pkg>trtf</pkg>.
              Extensible tools for visualizing binary trees
              and node distributions of the response are available in package
-             <pkg>party</pkg> as well.
+             <pkg>party</pkg> and <pkg>partykit</pkg> as well.
              <br/>
              Tree-structured varying coefficient models are implemented in
              package <pkg>vcrpart</pkg>.
@@ -94,7 +100,15 @@
              which will be important down the tree, are implemented in
              package <pkg>RLT</pkg>.  <pkg>wsrf</pkg> implements an
              alternative variable weighting method for variable subspace selection 
-             in place of the traditional random variable sampling. </li>
+             in place of the traditional random variable sampling. 
+
+             Random forests for parametric models, including forests for the
+             estimation of predictive distributions, are available in
+             packages <pkg>trtf</pkg> (predictive transformation forests,
+             possibly under censoring and trunction), <pkg>model4you</pkg>
+             (featuring a simple user interface for building forests based
+             on arbitrary parametric models fitted in R), and <pkg>grf</pkg> 
+             (an implementation of generalised random forests). </li>
       <li><i>Regularized and Shrinkage Methods</i>: Regression models with some
              constraint on the parameter estimates can be fitted with the
              <pkg>lasso2</pkg> and <pkg>lars</pkg> packages.  Lasso with
@@ -171,7 +185,8 @@
       <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
              where the final model is defined in terms of the sum over
              many weak learners (not unlike ensemble methods), 
-             are implemented in package <pkg>BayesTree</pkg>. 
+             are implemented in packages <pkg>BayesTree</pkg>, <pkg>BART</pkg>
+             <pkg>bartMachine</pkg> and <pkg>dbarts</pkg>.
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
@@ -275,6 +290,8 @@
   <packagelist>
     <pkg>ahaz</pkg>
     <pkg>arules</pkg>
+    <pkg>BART</pkg>
+    <pkg>bartMachine</pkg>
     <pkg>BayesTree</pkg>
     <pkg>biglasso</pkg>
     <pkg>bigRR</pkg>
@@ -287,6 +304,7 @@
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
     <pkg>darch</pkg>
+    <pkg>dbarts</pkg>
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>effects</pkg>
@@ -306,6 +324,7 @@
     <pkg>GMMBoost</pkg>
     <pkg>gmum.r</pkg>
     <pkg>gradDescent</pkg>
+    <pkg>grf</pkg>
     <pkg>grplasso</pkg>
     <pkg>grpreg</pkg>
     <pkg>hda</pkg>
@@ -325,6 +344,7 @@
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr</pkg>
+    <pkg>model4you</pkg>
     <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
@@ -370,6 +390,7 @@
     <pkg>tensorflow</pkg>
     <pkg>tgp</pkg>
     <pkg>tree</pkg>
+    <pkg>trtf</pkg>
     <pkg>varSelRF</pkg>
     <pkg>vcrpart</pkg>
     <pkg>wsrf</pkg>
