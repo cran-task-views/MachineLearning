@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-01-17</version>
+  <version>2018-01-24</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -181,7 +181,7 @@
 	     <pkg>klaR</pkg>.
              The relevant dimension in kernel feature spaces can be estimated
              using <pkg>rdetools</pkg> which also offers procedures for model selection
-             and prediction. Package <pkg>gmum.r</pkg> offers an R interface to LIBSVM and SVMLight.</li>
+             and prediction.</li>
       <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
              where the final model is defined in terms of the sum over
              many weak learners (not unlike ensemble methods), 
@@ -322,7 +322,6 @@
     <pkg>glmnet</pkg>
     <pkg>glmpath</pkg>
     <pkg>GMMBoost</pkg>
-    <pkg>gmum.r</pkg>
     <pkg>gradDescent</pkg>
     <pkg>grf</pkg>
     <pkg>grplasso</pkg>
