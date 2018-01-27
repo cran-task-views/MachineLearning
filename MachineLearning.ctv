@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-01-24</version>
+  <version>2018-01-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -19,8 +19,7 @@
              user-extensible artificial neural networks in package <pkg>FCNN4R</pkg>.
              <pkg>rnn</pkg> implements recurrent neural networks.
              Packages implementing deep learning flavours of neural networks
-             include <pkg>darch</pkg> (restricted Boltzmann machine, deep belief
-             network), <pkg>deepnet</pkg> (feed-forward neural network, 
+             include <pkg>deepnet</pkg> (feed-forward neural network, 
              restricted Boltzmann machine, deep belief network, stacked
              autoencoders), <pkg>RcppDL</pkg> (denoising autoencoder, 
              stacked denoising autoencoder, restricted Boltzmann machine,
@@ -303,7 +302,6 @@
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
-    <pkg>darch</pkg>
     <pkg>dbarts</pkg>
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
