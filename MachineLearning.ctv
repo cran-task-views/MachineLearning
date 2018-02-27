@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-01-28</version>
+  <version>2018-02-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -184,8 +184,8 @@
       <li><i>Bayesian Methods</i>: Bayesian Additive Regression Trees (BART),
              where the final model is defined in terms of the sum over
              many weak learners (not unlike ensemble methods), 
-             are implemented in packages <pkg>BayesTree</pkg>, <pkg>BART</pkg>
-             <pkg>bartMachine</pkg> and <pkg>dbarts</pkg>.
+             are implemented in packages <pkg>BayesTree</pkg>, <pkg>BART</pkg>, and
+             <pkg>bartMachine</pkg>.
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
@@ -302,7 +302,6 @@
     <pkg>CORElearn</pkg>
     <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
-    <pkg>dbarts</pkg>
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>effects</pkg>
