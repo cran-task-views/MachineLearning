@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-02-28</version>
+  <version>2018-04-27</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -154,7 +154,10 @@
              heteroscedastic errors is estimated by <pkg>hdm</pkg>,
              inference on low-dimensional components of Lasso regression and of estimated treatment 
              effects in a high-dimensional setting are also contained. Package <pkg>SIS</pkg>
-             implements sure independence screening in generalised linear and Cox models.</li> 
+             implements sure independence screening in generalised linear and Cox models.
+             Normal and binary logistic linear models under various
+             penalties (or mixtures of those) can be estimated using package
+             <pkg>oem</pkg>. </li> 
       <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
              descent boosting). Package <pkg>xgboost</pkg> implements
@@ -344,6 +347,7 @@
     <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
     <pkg priority="core">nnet</pkg>
+    <pkg>oem</pkg>
     <pkg>OneR</pkg>
     <pkg>opusminer</pkg>
     <pkg>pamr</pkg>
