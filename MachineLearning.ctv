@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-04-27</version>
+  <version>2018-05-16</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -146,7 +146,9 @@
              the LIBLINEAR library.
              The <pkg>ncvreg</pkg> package fits linear and logistic
              regression models under the the SCAD and MCP 
-             regression penalties using a coordinate descent algorithm.
+             regression penalties using a coordinate descent algorithm. The
+             same penalties are also implemented in the <pkg>picasso</pkg>
+             package.
 	     High-throughput ridge regression (i.e., penalization with many predictor variables) and
 	     heteroskedastic effects models are the focus of the <pkg>bigRR</pkg> package.
              An implementation of bundle methods for regularized risk minimization 
@@ -357,6 +359,7 @@
     <pkg>penalized</pkg>
     <pkg>penalizedLDA</pkg>
     <pkg>penalizedSVM</pkg>
+    <pkg>picasso</pkg>
     <pkg>plotmo</pkg>
     <pkg>quantregForest</pkg>
     <pkg priority="core">randomForest</pkg>
