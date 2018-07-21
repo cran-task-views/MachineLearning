@@ -135,9 +135,7 @@
              centroids classifier and utilities for gene expression analyses are
              implemented in package <pkg>pamr</pkg>. An implementation
              of multivariate adaptive regression splines is available
-             in package <pkg>earth</pkg>. Variable selection through clone selection
-             in SVMs in penalized models (SCAD or L1 penalties) is implemented
-             in package <pkg>penalizedSVM</pkg>. Various forms of
+             in package <pkg>earth</pkg>. Various forms of
              penalized discriminant analysis are implemented in 
              packages <pkg>hda</pkg> and <pkg>sda</pkg>.
 	     Package <pkg>LiblineaR</pkg> offers an interface to 
@@ -352,7 +350,6 @@
     <pkg>pdp</pkg>
     <pkg>penalized</pkg>
     <pkg>penalizedLDA</pkg>
-    <pkg>penalizedSVM</pkg>
     <pkg>picasso</pkg>
     <pkg>plotmo</pkg>
     <pkg>quantregForest</pkg>
