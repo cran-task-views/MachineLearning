@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2018-08-05</version>
+  <version>2019-02-19</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -96,7 +96,9 @@
              which will be important down the tree, are implemented in
              package <pkg>RLT</pkg>.  <pkg>wsrf</pkg> implements an
              alternative variable weighting method for variable subspace selection 
-             in place of the traditional random variable sampling. 
+             in place of the traditional random variable sampling. Package
+             <pkg>RGF</pkg> is an interface to a Python implementation of
+             a procedure called regularized greedy forests.
 
              Random forests for parametric models, including forests for the
              estimation of predictive distributions, are available in
@@ -361,6 +363,7 @@
     <pkg>relaxo</pkg>
     <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
+    <pkg>RGF</pkg>
     <pkg>RLT</pkg>
     <pkg>Rmalschains</pkg>
     <pkg>rminer</pkg>
