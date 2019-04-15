@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-02-19</version>
+  <version>2019-05-15</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -190,7 +190,10 @@
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
              <pkg>MXM</pkg> implements variable selection based on Bayesian
-             networks.
+             networks. Bayesian structure learning in undirected graphical models for multivariate continuous, discrete, and mixed data
+             is implemented in package <pkg>BDgraph</pkg>; corresponding
+             methods relying on spike-and-slab priors are available
+             from package <pkg>ssgraph</pkg>. 
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Package <pkg>rgenoud</pkg> offers optimization routines based on genetic algorithms. 
@@ -292,6 +295,7 @@
     <pkg>BART</pkg>
     <pkg>bartMachine</pkg>
     <pkg>BayesTree</pkg>
+    <pkg>BDgraph</pkg>
     <pkg>biglasso</pkg>
     <pkg>bmrm</pkg>
     <pkg>Boruta</pkg>
@@ -378,6 +382,7 @@
     <pkg>sda</pkg>
     <pkg>SIS</pkg>
     <pkg>spa</pkg>
+    <pkg>ssgraph</pkg>
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
     <pkg>svmpath</pkg>
