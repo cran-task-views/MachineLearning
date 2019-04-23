@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-05-15</version>
+  <version>2019-04-23</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -233,7 +233,7 @@
              class of a test pattern using a Dempster-Shafer mass function in package <pkg>evclass</pkg>.
              The <pkg>OneR</pkg> (One Rule) package offers a classification algorithm with 
              enhancements for sophisticated handling of missing values and numeric data 
-             together with extensive diagnostic functions. <pkg>spa</pkg> combines feature-based and graph-based data for prediction of some response.</li>
+             together with extensive diagnostic functions.</li>
       <li><i>Meta packages</i>:
              Package <pkg>caret</pkg> provides miscellaneous functions 
              for building predictive models, including parameter tuning 
@@ -381,7 +381,6 @@
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>SIS</pkg>
-    <pkg>spa</pkg>
     <pkg>ssgraph</pkg>
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
