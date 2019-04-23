@@ -16,7 +16,6 @@
              implemented in package <pkg>nnet</pkg> (shipped with base R).
              Package <pkg>RSNNS</pkg> offers an interface to the Stuttgart 
              Neural Network Simulator (SNNS).
-             <pkg>rnn</pkg> implements recurrent neural networks.
              Packages implementing deep learning flavours of neural networks
              include <pkg>deepnet</pkg> (feed-forward neural network, 
              restricted Boltzmann machine, deep belief network, stacked
@@ -371,7 +370,6 @@
     <pkg>RLT</pkg>
     <pkg>Rmalschains</pkg>
     <pkg>rminer</pkg>
-    <pkg>rnn</pkg>
     <pkg>ROCR</pkg>
     <pkg>RoughSets</pkg>
     <pkg priority="core">rpart</pkg>
