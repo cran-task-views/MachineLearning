@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-04-23</version>
+  <version>2019-06-07</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -192,7 +192,8 @@
              networks. Bayesian structure learning in undirected graphical models for multivariate continuous, discrete, and mixed data
              is implemented in package <pkg>BDgraph</pkg>; corresponding
              methods relying on spike-and-slab priors are available
-             from package <pkg>ssgraph</pkg>. 
+             from package <pkg>ssgraph</pkg>. Naive Bayes classifiers are
+             available in <pkg>naivebayes</pkg>.
              </li>
       <li><i>Optimization using Genetic Algorithms</i>:
              Package <pkg>rgenoud</pkg> offers optimization routines based on genetic algorithms. 
@@ -343,6 +344,7 @@
     <pkg>model4you</pkg>
     <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
+    <pkg>naivebayes</pkg>
     <pkg priority="core">nnet</pkg>
     <pkg>oem</pkg>
     <pkg>OneR</pkg>
