@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-06-07</version>
+  <version>2019-10-21</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -59,8 +59,6 @@
              Tree-structured varying coefficient models are implemented in
              package <pkg>vcrpart</pkg>.
              <br/>
-             For problems with binary input variables
-             the package <pkg>LogicReg</pkg> implements logic regression.
              Graphical tools for the visualization of
              trees are available in package <pkg>maptree</pkg>.
              <br/> Trees for modelling longitudinal data by means of
@@ -336,7 +334,6 @@
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
-    <pkg>LogicReg</pkg>
     <pkg>LTRCtrees</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
