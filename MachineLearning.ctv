@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-10-21</version>
+  <version>2019-11-18</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -237,7 +237,7 @@
              for building predictive models, including parameter tuning 
              and  variable importance measures. The package can be used 
              with various parallel implementations (e.g. MPI, NWS etc). 
-             In a similar spirit, package <pkg>mlr</pkg> offers a high-level 
+             In a similar spirit, package <pkg>mlr3</pkg> offers a high-level 
              interface
              to various statistical and machine learning packages. Package
              <pkg>SuperLearner</pkg> implements a similar toolbox.
@@ -337,7 +337,7 @@
     <pkg>LTRCtrees</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
-    <pkg>mlr</pkg>
+    <pkg>mlr3</pkg>
     <pkg>model4you</pkg>
     <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
