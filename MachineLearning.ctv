@@ -185,8 +185,7 @@
              Bayesian nonstationary, semiparametric nonlinear regression 
              and design by treed Gaussian processes including Bayesian CART and 
              treed linear models are made available by package <pkg>tgp</pkg>.
-             <pkg>MXM</pkg> implements variable selection based on Bayesian
-             networks. Bayesian structure learning in undirected graphical models for multivariate continuous, discrete, and mixed data
+             Bayesian structure learning in undirected graphical models for multivariate continuous, discrete, and mixed data
              is implemented in package <pkg>BDgraph</pkg>; corresponding
              methods relying on spike-and-slab priors are available
              from package <pkg>ssgraph</pkg>. Naive Bayes classifiers are
@@ -338,7 +337,6 @@
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr3</pkg>
     <pkg>model4you</pkg>
-    <pkg>MXM</pkg>
     <pkg>ncvreg</pkg>
     <pkg>naivebayes</pkg>
     <pkg priority="core">nnet</pkg>
