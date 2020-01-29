@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2019-12-21</version>
+  <version>2020-01-30</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -235,12 +235,6 @@
              platform that has scalable implementations of many popular algorithms such
              as random forest, GBM, GLM (with elastic net regularization), and deep
              learning (feedforward multilayer networks), among others.</li>
-      <li><i>Elements of Statistical Learning</i>: Data sets, functions and
-             examples from the book 
-             <a href="https://web.stanford.edu/~hastie/ElemStatLearn/">The Elements of Statistical Learning: Data Mining,
-             Inference, and Prediction</a> by Trevor Hastie, Robert Tibshirani and 
-             Jerome Friedman have been packaged and are available as
-             <pkg>ElemStatLearn</pkg>.</li>
       <li><i>GUI</i><pkg>rattle</pkg> is a graphical user interface for data mining in R.</li>
       <li><i>Visualisation (initially contributed by Brandon Greenwell) </i>
              The <code>stats::termplot()</code> function package can be used to plot the
@@ -296,7 +290,6 @@
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>effects</pkg>
-    <pkg>ElemStatLearn</pkg>
     <pkg>earth</pkg>
     <pkg>elasticnet</pkg>
     <pkg>evclass</pkg>
