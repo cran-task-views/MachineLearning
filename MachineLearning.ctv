@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2020-01-30</version>
+  <version>2020-02-20</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -49,9 +49,6 @@
              Extensible tools for visualizing binary trees
              and node distributions of the response are available in package
              <pkg>party</pkg> and <pkg>partykit</pkg> as well.
-             <br/>
-             Tree-structured varying coefficient models are implemented in
-             package <pkg>vcrpart</pkg>.
              <br/>
              Graphical tools for the visualization of
              trees are available in package <pkg>maptree</pkg>.
@@ -367,7 +364,6 @@
     <pkg>tree</pkg>
     <pkg>trtf</pkg>
     <pkg>varSelRF</pkg>
-    <pkg>vcrpart</pkg>
     <pkg>wsrf</pkg>
     <pkg>xgboost</pkg>
   </packagelist>
