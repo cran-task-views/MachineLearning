@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2020-02-20</version>
+  <version>2020-09-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -224,8 +224,9 @@
              for building predictive models, including parameter tuning 
              and  variable importance measures. The package can be used 
              with various parallel implementations (e.g. MPI, NWS etc). 
-             In a similar spirit, package <pkg>mlr3</pkg> offers a high-level 
-             interface
+             In a similar spirit, packages <pkg>mlr3</pkg> and
+             <pkg>mlr3proba</pkg> offer high-level 
+             interfaces
              to various statistical and machine learning packages. Package
              <pkg>SuperLearner</pkg> implements a similar toolbox.
              The <pkg>h2o</pkg> package implements a general purpose machine learning
@@ -318,6 +319,7 @@
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr3</pkg>
+    <pkg>mlr3proba</pkg>
     <pkg>ncvreg</pkg>
     <pkg>naivebayes</pkg>
     <pkg priority="core">nnet</pkg>
