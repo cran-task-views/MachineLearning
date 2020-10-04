@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2020-09-28</version>
+  <version>2020-10-04</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -61,9 +61,7 @@
              in <pkg>partykit</pkg>.
 	     This infrastructure is used by package <pkg>evtree</pkg> to implement evolutionary learning 
              of globally optimal trees. Survival trees are available in
-	     various package, <pkg>LTRCtrees</pkg> allows for
-	     left-truncation and interval-censoring in addition to
-	     right-censoring.
+	     various packages.
              </li>
       <li><i>Random Forests</i>: The reference implementation of the random
              forest algorithm for regression and classification is available in 
@@ -315,7 +313,6 @@
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
-    <pkg>LTRCtrees</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr3</pkg>
