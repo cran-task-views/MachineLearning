@@ -143,8 +143,7 @@
              tree-based boosting using efficient trees as base learners for
              several and also user-defined objective functions.
              The Hinge-loss is optimized by the boosting implementation 
-             in package <pkg>bst</pkg>. Package <pkg>GAMBoost</pkg> can be used to fit generalized additive models
-             by a boosting algorithm. An extensible boosting framework for
+             in package <pkg>bst</pkg>. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
              package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
              is implemented in <pkg>CoxBoost</pkg> and for mixed models in
@@ -290,7 +289,6 @@
     <pkg>evclass</pkg>
     <pkg>evtree</pkg>
     <pkg>frbs</pkg>
-    <pkg>GAMBoost</pkg>
     <pkg>gamboostLSS</pkg>
     <pkg priority="core">gbm</pkg>
     <pkg>ggRandomForests</pkg>
