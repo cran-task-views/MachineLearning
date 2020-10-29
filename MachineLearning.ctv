@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2020-10-04</version>
+  <version>2020-10-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -52,8 +52,7 @@
              <br/>
              Graphical tools for the visualization of
              trees are available in package <pkg>maptree</pkg>.
-             <br/> Trees for modelling longitudinal data by means of
-             random effects is offered by package <pkg>REEMtree</pkg>.
+             <br/>
 	     Partitioning of mixture models is performed by <pkg>RPMM</pkg>.
              <br/>
              Computational infrastructure for representing trees and
@@ -339,7 +338,6 @@
     <pkg>RcppDL</pkg>
     <pkg>rdetools</pkg>
     <pkg>relaxo</pkg>
-    <pkg>REEMtree</pkg>
     <pkg>rgenoud</pkg>
     <pkg>RGF</pkg>
     <pkg>RLT</pkg>
