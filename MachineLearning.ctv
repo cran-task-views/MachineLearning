@@ -145,9 +145,8 @@
              The Hinge-loss is optimized by the boosting implementation 
              in package <pkg>bst</pkg>. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
-             package <pkg>mboost</pkg>. Likelihood-based boosting for Cox models
-             is implemented in <pkg>CoxBoost</pkg> and for mixed models in
-             <pkg>GMMBoost</pkg>.
+             package <pkg>mboost</pkg>. Likelihood-based boosting for mixed models
+             is implemented in <pkg>GMMBoost</pkg>.
              GAMLSS models can be fitted using boosting by <pkg>gamboostLSS</pkg>.
              An implementation of various learning algorithms based on
              Gradient Descent for dealing with regression tasks is available
