@@ -278,7 +278,6 @@
     <pkg>C50</pkg>
     <pkg>caret</pkg>
     <pkg>CORElearn</pkg>
-    <pkg>CoxBoost</pkg>
     <pkg>Cubist</pkg>
     <pkg>deepnet</pkg>
     <pkg priority="core">e1071</pkg>
