@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2020-10-28</version>
+  <version>2021-01-29</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -142,6 +142,8 @@
              descent boosting). Package <pkg>xgboost</pkg> implements
              tree-based boosting using efficient trees as base learners for
              several and also user-defined objective functions.
+             Package <pkg>lightgbm</pkg> provides an interface to the
+             LightGBM library.
              The Hinge-loss is optimized by the boosting implementation 
              in package <pkg>bst</pkg>. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
@@ -202,7 +204,9 @@
              function <code>errorest()</code> (<pkg>ipred</pkg>) can be used for
              error rate estimation. The cost parameter C for support vector
              machines can be chosen utilizing the functionality of package
-             <pkg>svmpath</pkg>.
+             <pkg>svmpath</pkg>. Data splitting for crossvalidation 
+             and other resampling schemes is available in the
+             <pkg>splitTools</pkg> package.
              Functions for ROC analysis and other visualisation techniques 
              for comparing candidate classifiers are available from package 
              <pkg>ROCR</pkg>.
@@ -308,6 +312,7 @@
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
+    <pkg priority = "core">lightgbm</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlr3</pkg>
@@ -348,6 +353,7 @@
     <pkg>RXshrink</pkg>
     <pkg>sda</pkg>
     <pkg>SIS</pkg>
+    <pkg>splitTools</pkg>
     <pkg>ssgraph</pkg>
     <pkg>stabs</pkg>
     <pkg>SuperLearner</pkg>
