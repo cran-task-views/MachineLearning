@@ -310,7 +310,7 @@
     <pkg>ipred</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
-    <pkg>L0Learny</pkg>
+    <pkg>L0Learn</pkg>
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
