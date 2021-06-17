@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-03-21</version>
+  <version>2021-06-17</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -230,7 +230,13 @@
              The <pkg>h2o</pkg> package implements a general purpose machine learning
              platform that has scalable implementations of many popular algorithms such
              as random forest, GBM, GLM (with elastic net regularization), and deep
-             learning (feedforward multilayer networks), among others.</li>
+             learning (feedforward multilayer networks), among others.
+             An interface to the mlpack C++ library is available from
+             package <pkg>mlpack</pkg>.  <pkg>CORElearn</pkg> implements a rather broad class of machine learning
+  algorithms, such as nearest neighbors, trees, random forests, and 
+  several feature selection methods. Similar, package <pkg>rminer</pkg> interfaces
+  several learning algorithms implemented in other packages and computes
+  several performance measures. </li>
       <li><i>GUI</i><pkg>rattle</pkg> is a graphical user interface for data mining in R.</li>
       <li><i>Visualisation (initially contributed by Brandon Greenwell) </i>
              The <code>stats::termplot()</code> function package can be used to plot the
@@ -260,11 +266,6 @@
              models (e.g., variable importance plots and PDPs) from the
              <pkg>randomForest</pkg> and <pkg>randomForestSRC</pkg> packages.</li>
     </ul>
-  <pkg>CORElearn</pkg> implements a rather broad class of machine learning
-  algorithms, such as nearest neighbors, trees, random forests, and 
-  several feature selection methods. Similar, package <pkg>rminer</pkg> interfaces
-  several learning algorithms implemented in other packages and computes
-  several performance measures.
   </info>
 
   <packagelist>
@@ -314,6 +315,7 @@
     <pkg priority = "core">lightgbm</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
+    <pkg>mlpack</pkg>
     <pkg>mlr3</pkg>
     <pkg>mlr3proba</pkg>
     <pkg>ncvreg</pkg>
