@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-06-17</version>
+  <version>2021-06-28</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -212,6 +212,10 @@
              Packages <pkg>hdi</pkg> and <pkg>stabs</pkg> implement stability 
              selection for a range of models, <pkg>hdi</pkg>
              also offers other inference procedures in high-dimensional models.</li>
+      <li><i>Causal Machine Learning</i>: The package <pkg>DoubleML</pkg> is an object-oriented
+             implementation of the double machine learning framework in a variety of causal models. Building
+             upon the <pkg>mlr3</pkg> ecosystem, estimation of causal effects can be based on an extensive collection of
+             machine learning methods.</li>
       <li><i>Other procedures</i>: Evidential classifiers quantify the uncertainty about the
              class of a test pattern using a Dempster-Shafer mass function in package <pkg>evclass</pkg>.
              The <pkg>OneR</pkg> (One Rule) package offers a classification algorithm with 
@@ -284,6 +288,7 @@
     <pkg>CORElearn</pkg>
     <pkg>Cubist</pkg>
     <pkg>deepnet</pkg>
+    <pkg>DoubleML</pkg>
     <pkg priority="core">e1071</pkg>
     <pkg>effects</pkg>
     <pkg>earth</pkg>
