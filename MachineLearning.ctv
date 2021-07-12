@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-06-28</version>
+  <version>2021-07-12</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -24,7 +24,8 @@
              deep belief network) and <pkg>h2o</pkg> 
              (feed-forward neural network, deep autoencoders). An interface
              to <A HREF="http://www.tensorflow.org">tensorflow</A> is
-             available in <pkg>tensorflow</pkg>.</li>
+             available in <pkg>tensorflow</pkg>. The <pkg>torch</pkg>
+             package implements an interface to the <A HREF="https://pytorch.org/">libtorch library</A>.</li>
       <li><i>Recursive Partitioning</i>: Tree-structured models for
              regression, classification and survival analysis, following the
 	     ideas in the CART book, are
@@ -366,6 +367,7 @@
     <pkg>svmpath</pkg>
     <pkg>tensorflow</pkg>
     <pkg>tgp</pkg>
+    <pkg>torch</pkg>
     <pkg>tree</pkg>
     <pkg>trtf</pkg>
     <pkg>varSelRF</pkg>
