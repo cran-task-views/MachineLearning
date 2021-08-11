@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-07-12</version>
+  <version>2021-08-11</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -136,6 +136,8 @@
              inference on low-dimensional components of Lasso regression and of estimated treatment 
              effects in a high-dimensional setting are also contained. Package <pkg>SIS</pkg>
              implements sure independence screening in generalised linear and Cox models.
+             Elastic nets for correlated outcomes are available from package
+             <pkg>joinet</pkg>.
              </li> 
       <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
@@ -313,6 +315,7 @@
     <pkg>h2o</pkg>
     <pkg>ICEbox</pkg>
     <pkg>ipred</pkg>
+    <pkg>joinet</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
     <pkg>lars</pkg>
