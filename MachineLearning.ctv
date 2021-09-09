@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-08-11</version>
+  <version>2021-09-09</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -137,7 +137,9 @@
              effects in a high-dimensional setting are also contained. Package <pkg>SIS</pkg>
              implements sure independence screening in generalised linear and Cox models.
              Elastic nets for correlated outcomes are available from package
-             <pkg>joinet</pkg>.
+             <pkg>joinet</pkg>. Robust penalized generalized linear models 
+             and robust support vector machines are fitted by package
+             <pkg>mpath</pkg> using composite optimization by conjugation operator.
              </li> 
       <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
@@ -327,6 +329,7 @@
     <pkg>mlpack</pkg>
     <pkg>mlr3</pkg>
     <pkg>mlr3proba</pkg>
+    <pkg>mpath</pkg>
     <pkg>ncvreg</pkg>
     <pkg>naivebayes</pkg>
     <pkg priority="core">nnet</pkg>
