@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-09-09</version>
+  <version>2021-09-21</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -140,6 +140,9 @@
              <pkg>joinet</pkg>. Robust penalized generalized linear models 
              and robust support vector machines are fitted by package
              <pkg>mpath</pkg> using composite optimization by conjugation operator.
+             The <pkg>islasso</pkg> package provides an implementation of 
+             lasso based on the induced smoothing idea which allows to obtain 
+             reliable p-values for all model parameters.
              </li> 
       <li><i>Boosting and Gradient Descent</i>: Various forms of gradient boosting are
              implemented in package <pkg>gbm</pkg> (tree-based functional gradient
@@ -317,6 +320,7 @@
     <pkg>h2o</pkg>
     <pkg>ICEbox</pkg>
     <pkg>ipred</pkg>
+    <pkg>islasso</pkg>
     <pkg>joinet</pkg>
     <pkg priority="core">kernlab</pkg>
     <pkg>klaR</pkg>
