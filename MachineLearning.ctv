@@ -3,7 +3,7 @@
   <name>MachineLearning</name>
   <topic>Machine Learning &amp; Statistical Learning</topic>
   <maintainer email="Torsten.Hothorn@R-project.org">Torsten Hothorn</maintainer>
-  <version>2021-09-21</version>
+  <version>2021-10-26</version>
   
   <info>
     Several add-on packages implement ideas and methods developed at the
@@ -149,8 +149,6 @@
              descent boosting). Package <pkg>xgboost</pkg> implements
              tree-based boosting using efficient trees as base learners for
              several and also user-defined objective functions.
-             Package <pkg>lightgbm</pkg> provides an interface to the
-             LightGBM library.
              The Hinge-loss is optimized by the boosting implementation 
              in package <pkg>bst</pkg>. An extensible boosting framework for
              generalized linear, additive and nonparametric models is available in
@@ -327,7 +325,6 @@
     <pkg>lars</pkg>
     <pkg>lasso2</pkg>
     <pkg>LiblineaR</pkg>
-    <pkg priority = "core">lightgbm</pkg>
     <pkg>maptree</pkg>
     <pkg priority = "core">mboost</pkg>
     <pkg>mlpack</pkg>
