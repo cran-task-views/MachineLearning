@@ -243,10 +243,9 @@ roughly structured into the following topics:
     classification algorithm with enhancements for sophisticated
     handling of missing values and numeric data together with extensive
     diagnostic functions.
--   *Meta packages* : Package `r pkg("caret")` provides
+-   *Meta packages* : Package `r pkg("tidymodels")` provides
     miscellaneous functions for building predictive models, including
-    parameter tuning and variable importance measures. The package can
-    be used with various parallel implementations (e.g. MPI, NWS etc).
+    parameter tuning and variable importance measures. 
     In a similar spirit, packages `r pkg("mlr3")` and
     `r pkg("mlr3proba")` offer high-level interfaces to
     various statistical and machine learning packages. Package
