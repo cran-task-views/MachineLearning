@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2021-12-28
+version: 2022-01-31
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -111,9 +111,7 @@ roughly structured into the following topics:
     `r pkg("glmnet")`. The `r pkg("penalized")`
     package provides an alternative implementation of lasso (L1) and
     ridge (L2) penalized regression models (both GLM and Cox models).
-    Package `r pkg("biglasso")` fits Gaussian and logistic
-    linear models under L1 penalty when the data can't be stored in
-    RAM. Package `r pkg("RXshrink")` can be used to identify
+    Package `r pkg("RXshrink")` can be used to identify
     and display TRACEs for a specified shrinkage path and to determine
     the appropriate extent of shrinkage. Semiparametric additive hazards
     models under lasso penalties are offered by package
