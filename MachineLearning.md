@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2022-01-31
+version: 2022-03-02
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -292,11 +292,6 @@ roughly structured into the following topics:
     PDPs. ICE curves, as well as centered ICE curves can also be
     constructed with the `partial()` function from the
     `r pkg("pdp")` package.
-    `r pkg("ggRandomForests")` provides ggplot2-based tools
-    for the graphical exploration of random forest models (e.g.,
-    variable importance plots and PDPs) from the
-    `r pkg("randomForest")` and
-    `r pkg("randomForestSRC")` packages.
 
 
 
