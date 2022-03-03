@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2022-03-02
+version: 2022-03-03
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -153,8 +153,8 @@ roughly structured into the following topics:
 -   *Boosting and Gradient Descent* : Various forms of gradient boosting
     are implemented in package
     `r pkg("gbm", priority = "core")` (tree-based functional
-    gradient descent boosting). Package `r pkg("xgboost")`
-    implements tree-based boosting using efficient trees as base
+    gradient descent boosting). Package `r pkg("lightgbm")` and `r pkg("xgboost")`
+    implement tree-based boosting using efficient trees as base
     learners for several and also user-defined objective functions. The
     Hinge-loss is optimized by the boosting implementation in package
     `r pkg("bst")`. An extensible boosting framework for
