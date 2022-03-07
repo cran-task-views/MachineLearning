@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2022-03-03
+version: 2022-03-07
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -260,8 +260,6 @@ roughly structured into the following topics:
     package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
     performance measures.
--   *GUI* `r pkg("rattle")` is a graphical user interface
-    for data mining in R.
 -   *Visualisation (initially contributed by Brandon Greenwell)* The
     `stats::termplot()` function package can be used to plot the terms
     in a model whose predict method supports `type="terms"`. The
