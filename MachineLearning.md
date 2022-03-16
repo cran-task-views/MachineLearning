@@ -63,6 +63,13 @@ roughly structured into the following topics:
     package `r pkg("evtree")` to implement evolutionary
     learning of globally optimal trees. Survival trees are available in
     various packages.
+
+    Trees for subgroup identification with respect to heterogenuous
+    treatment effects  are available in packages `r pkg("partykit")`,
+    `r pkg("model4you")`, `r pkg("DIPM")`, `r pkg("quint")`, 
+    `pkg("SIDES")`, `pkg("psica")`, and `pkg("MrSGUIDE")` (and
+    probably many more).
+
 -   *Random Forests* : The reference implementation of the random forest
     algorithm for regression and classification is available in package
     `r pkg("randomForest", priority = "core")`. Package
