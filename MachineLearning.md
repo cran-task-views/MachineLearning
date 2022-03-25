@@ -66,7 +66,7 @@ roughly structured into the following topics:
 
     Trees for subgroup identification with respect to heterogenuous
     treatment effects  are available in packages `r pkg("partykit")`,
-    `r pkg("model4you")`, `r pkg("DIPM")`, `r pkg("quint")`, 
+    `r pkg("model4you")`, `r pkg("dipm")`, `r pkg("quint")`, 
     `pkg("SIDES")`, `pkg("psica")`, and `pkg("MrSGUIDE")` (and
     probably many more).
 
