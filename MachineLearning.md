@@ -42,7 +42,9 @@ roughly structured into the following topics:
     (similar to trees) with linear regression models in the terminal
     leaves, instance-based corrections and boosting. The
     `r pkg("C50")` package can fit C5.0 classification
-    trees, rule-based models, and boosted versions of these.\
+    trees, rule-based models, and boosted versions of these. 
+    `r pkg("pre")` can fit rule-based models for a wider range of
+    response variable types.\
     Two recursive partitioning algorithms with unbiased variable
     selection and statistical stopping criterion are implemented in
     package `r pkg("party")` and
@@ -52,7 +54,10 @@ roughly structured into the following topics:
     `mob()` can be used to partition parametric models. Extensible tools
     for visualizing binary trees and node distributions of the response
     are available in package `r pkg("party")` and
-    `r pkg("partykit")` as well.\
+    `r pkg("partykit")` as well. Partitioning of mixed-effects models
+    (GLMMs) can be performed with package `r pkg(glmertree)`;
+    partitioning of structural equation models (SEMs) can be performed 
+    with package `r pkg(semtree)`.\ 
     Graphical tools for the visualization of trees are available in
     package `r pkg("maptree")`.\
     Partitioning of mixture models is performed by
@@ -62,7 +67,7 @@ roughly structured into the following topics:
     `r pkg("partykit")`. This infrastructure is used by
     package `r pkg("evtree")` to implement evolutionary
     learning of globally optimal trees. Survival trees are available in
-    various packages.
+    various packages. 
 
     Trees for subgroup identification with respect to heterogenuous
     treatment effects  are available in packages `r pkg("partykit")`,
