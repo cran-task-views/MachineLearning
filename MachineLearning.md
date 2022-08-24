@@ -127,9 +127,7 @@ roughly structured into the following topics:
     and display TRACEs for a specified shrinkage path and to determine
     the appropriate extent of shrinkage. Semiparametric additive hazards
     models under lasso penalties are offered by package
-    `r pkg("ahaz")`. A generalisation of the Lasso shrinkage
-    technique for linear regression is called relaxed lasso and is
-    available in package `r pkg("relaxo")`. Fisher's LDA
+    `r pkg("ahaz")`. Fisher's LDA
     projection with an optional LASSO penalty to produce sparse
     solutions is implemented in package
     `r pkg("penalizedLDA")`. The shrunken centroids
