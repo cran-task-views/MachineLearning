@@ -183,10 +183,7 @@ roughly structured into the following topics:
     flexible framework for kernel learning (including SVMs, RVMs and
     other kernel learning algorithms). An interface to the SVMlight
     implementation (only for one-against-all classification) is provided
-    in package `r pkg("klaR")`. The relevant dimension in
-    kernel feature spaces can be estimated using
-    `r pkg("rdetools")` which also offers procedures for
-    model selection and prediction.
+    in package `r pkg("klaR")`. 
 -   *Bayesian Methods* : Bayesian Additive Regression Trees (BART),
     where the final model is defined in terms of the sum over many weak
     learners (not unlike ensemble methods), are implemented in packages
