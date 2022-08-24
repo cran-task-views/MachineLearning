@@ -55,9 +55,9 @@ roughly structured into the following topics:
     for visualizing binary trees and node distributions of the response
     are available in package `r pkg("party")` and
     `r pkg("partykit")` as well. Partitioning of mixed-effects models
-    (GLMMs) can be performed with package `r pkg(glmertree)`;
+    (GLMMs) can be performed with package `r pkg("glmertree")`;
     partitioning of structural equation models (SEMs) can be performed 
-    with package `r pkg(semtree)`.\ 
+    with package `r pkg("semtree")`.\ 
     Graphical tools for the visualization of trees are available in
     package `r pkg("maptree")`.\
     Partitioning of mixture models is performed by
