@@ -172,10 +172,7 @@ roughly structured into the following topics:
     in package `r pkg("mboost", priority = "core")`.
     Likelihood-based boosting for mixed models is implemented in
     `r pkg("GMMBoost")`. GAMLSS models can be fitted using
-    boosting by `r pkg("gamboostLSS")`. An implementation of
-    various learning algorithms based on Gradient Descent for dealing
-    with regression tasks is available in package
-    `r pkg("gradDescent")`.
+    boosting by `r pkg("gamboostLSS")`. 
 -   *Support Vector Machines and Kernel Methods* : The function `svm()`
     from `r pkg("e1071", priority = "core")` offers an
     interface to the LIBSVM library and package
