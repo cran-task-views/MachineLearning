@@ -251,8 +251,7 @@ roughly structured into the following topics:
 -   *Meta packages* : Package `r pkg("tidymodels")` provides
     miscellaneous functions for building predictive models, including
     parameter tuning and variable importance measures. 
-    In a similar spirit, packages `r pkg("mlr3")` and
-    `r pkg("mlr3proba")` offer high-level interfaces to
+    In a similar spirit, package `r pkg("mlr3")` offers high-level interfaces to
     various statistical and machine learning packages. Package
     `r pkg("SuperLearner")` implements a similar toolbox.
     The `r pkg("h2o")` package implements a general purpose
