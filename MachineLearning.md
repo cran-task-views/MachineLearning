@@ -293,8 +293,25 @@ roughly structured into the following topics:
     PDPs. ICE curves, as well as centered ICE curves can also be
     constructed with the `partial()` function from the
     `r pkg("pdp")` package.
-
-
+-   *XAI* : Most packages and functions from the last section "Visualization"
+    belong to the field of explainable artificial intelligence (XAI). 
+    The meta packages `r pkg("DALEX")` and `r pkg("iml")` offer different
+    methods to interpret any model, including partial dependence,
+    accumulated local effects, and permutation importance. Accumulated local 
+    effects plots are also directly available in `r pkg("ALEPlot")`.
+    SHAP (from *SH*apley *A*dditive ex*P*lanations) is one of the most
+    frequently used techniques to interpret ML models. 
+    It decomposes - in a fair way - predictions into additive contributions 
+    of the predictors. For tree-based models, the very fast TreeSHAP algorithm
+    exists. It is shipped directly with `r pkg("h2o")`, `r pkg("xgboost")`,
+    and `r pkg("lightgbm")`. Model-agnostic implementations of SHAP
+    are available in additional packages: `r pkg("fastshap")` mainly uses
+    Monte-Carlo sampling to approximate SHAP values, while `r pkg("shapr")` and 
+    `r pkg("kernelshap")` provide implementations of KernelSHAP. 
+    SHAP values of any of these packages can be plotted by the package `r pkg("shapviz")`. 
+    A port to Python's "shap" package is provided in `r pkg("shapper")`. 
+    Alternative decompositions of predictions are implemented in 
+    `r pkg("lime")` and `r pkg("iBreakDown")`.
 
 ### Links
 -   [MLOSS: Machine Learning Open Source Software](http://www.MLOSS.org/)
