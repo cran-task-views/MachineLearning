@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2022-03-07
+version: 2023-04-05
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -111,8 +111,7 @@ roughly structured into the following topics:
     forests).
 -   *Regularized and Shrinkage Methods* : Regression models with some
     constraint on the parameter estimates can be fitted with the
-    `r pkg("lasso2")` and `r pkg("lars")`
-    packages. Lasso with simultaneous updates for groups of parameters
+    `r pkg("lars")` package. Lasso with simultaneous updates for groups of parameters
     (groupwise lasso) is available in package
     `r pkg("grplasso")`; the `r pkg("grpreg")`
     package implements a number of other group penalization models, such
