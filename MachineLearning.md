@@ -173,7 +173,9 @@ roughly structured into the following topics:
     in package `r pkg("mboost", priority = "core")`.
     Likelihood-based boosting for mixed models is implemented in
     `r pkg("GMMBoost")`. GAMLSS models can be fitted using
-    boosting by `r pkg("gamboostLSS")`. 
+    boosting by `r pkg("gamboostLSS")`. `r pkg("adabag")` implements the
+    classical AdaBoost algorithm with added functionality, such as variable
+    importances.
 -   *Support Vector Machines and Kernel Methods* : The function `svm()`
     from `r pkg("e1071", priority = "core")` offers an
     interface to the LIBSVM library and package
