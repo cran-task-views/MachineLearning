@@ -228,7 +228,9 @@ roughly structured into the following topics:
     chosen utilizing the functionality of package
     `r pkg("svmpath")`. Data splitting for crossvalidation
     and other resampling schemes is available in the
-    `r pkg("splitTools")` package. Functions for ROC
+    `r pkg("splitTools")` package. Package
+    `r pkg("nestedcv")` provides nested cross-validation for 
+    `r pkg("glmnet")` and `r pkg("caret")`  models. Functions for ROC
     analysis and other visualisation techniques for comparing candidate
     classifiers are available from package `r pkg("ROCR")`.
     Packages `r pkg("hdi")` and `r pkg("stabs")`
