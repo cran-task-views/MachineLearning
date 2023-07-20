@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2023-04-05
+version: 2023-07-20
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -143,8 +143,7 @@ roughly structured into the following topics:
     linear and logistic regression models under the the SCAD and MCP
     regression penalties using a coordinate descent algorithm. The same
     penalties are also implemented in the `r pkg("picasso")`
-    package. An implementation of bundle methods for regularized risk
-    minimization is available form package `r pkg("bmrm")`.
+    package.
     The Lasso under non-Gaussian and heteroscedastic errors is estimated
     by `r pkg("hdm")`, inference on low-dimensional
     components of Lasso regression and of estimated treatment effects in
