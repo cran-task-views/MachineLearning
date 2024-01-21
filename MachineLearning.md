@@ -267,6 +267,9 @@ roughly structured into the following topics:
     package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
     performance measures.
+    `r pkg("nestedcv")` implements nested cross-validation of a wide variety of
+    models including elastic net, with nested feature selection and computing of
+    performance measures.
 -   *Visualisation (initially contributed by Brandon Greenwell)* The
     `stats::termplot()` function package can be used to plot the terms
     in a model whose predict method supports `type="terms"`. The
