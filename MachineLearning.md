@@ -27,7 +27,9 @@ roughly structured into the following topics:
     [tensorflow](http://www.tensorflow.org) is available in
     `r pkg("tensorflow")`. The `r pkg("torch")`
     package implements an interface to the [libtorch
-    library](https://pytorch.org/). Prediction uncertainty can be quantified
+    library](https://pytorch.org/). There is also `r pkg("mlr3torch")`
+    which integrates torch into the `r pkg("mlr3")` ecosystem.
+    Prediction uncertainty can be quantified
     by the ENNreg evidential regression neural network model implemented 
     in `r pkg("evreg")`.
 -   *Recursive Partitioning* : Tree-structured models for regression,
