@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2023-07-20
+version: 2024-10-18
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -182,7 +182,9 @@ roughly structured into the following topics:
     flexible framework for kernel learning (including SVMs, RVMs and
     other kernel learning algorithms). An interface to the SVMlight
     implementation (only for one-against-all classification) is provided
-    in package `r pkg("klaR")`. 
+    in package `r pkg("klaR")`.  Package `r pkg("gKRLS")` features
+    Generalized Kernel Regularized Least Squares, applicable to non-gaussian
+    data alongside random effects, splines, and unregularized fixed effects.
 -   *Bayesian Methods* : Bayesian Additive Regression Trees (BART),
     where the final model is defined in terms of the sum over many weak
     learners (not unlike ensemble methods), are implemented in packages
