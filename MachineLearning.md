@@ -250,7 +250,9 @@ roughly structured into the following topics:
     `r pkg("OneR")` (One Rule) package offers a
     classification algorithm with enhancements for sophisticated
     handling of missing values and numeric data together with extensive
-    diagnostic functions.
+    diagnostic functions. The `r pkg("mlr3inferr")` allows to construct
+    confidence intervals for the generalization error using resampling-based
+    inference methods.
 -   *Meta packages* : Package `r pkg("tidymodels")` provides
     miscellaneous functions for building predictive models, including
     parameter tuning and variable importance measures. 
