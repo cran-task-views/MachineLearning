@@ -324,5 +324,7 @@ roughly structured into the following topics:
     Alternative decompositions of predictions are implemented in 
     `r pkg("lime")` and `r pkg("iBreakDown")`.
 
+-   *Performance Evaluation:* `r pkg(yardstick)`, `r pkg(MLmetrics)` and `r pkg(SLmetrics)` are provides a wide array of performance evaluation tools and functions. yardstick and SLmetrics follows Pythons scikit-learn module but differs in its backend - yardstick is built in with tidyverse tools and SLmetrics is built in C++. MLmetrics is built on base R.
+
 ### Links
 -   [MLOSS: Machine Learning Open Source Software](http://www.MLOSS.org/)
