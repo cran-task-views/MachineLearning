@@ -272,8 +272,9 @@ roughly structured into the following topics:
     random forests, and several feature selection methods. Similar,
     package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
-    performance measures. Package `r pkg("qeML")` provides wrappers to
-    numerious ML R packages with a simple, convenient, and uniform interface.
+    performance measures. Package `r pkg("qeML")` provides wrappers to numerous machine learning R packages with a simple, convenient, and uniform interface, for both
+    beginner and advanced operations such as `r pkg("FOCI")` and 
+    `r pkg("ncvreg")`.
 -   *Visualisation (initially contributed by Brandon Greenwell)* The
     `stats::termplot()` function package can be used to plot the terms
     in a model whose predict method supports `type="terms"`. The
