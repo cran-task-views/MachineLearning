@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn
 email: Torsten.Hothorn@R-project.org
-version: 2024-10-18
+version: 2025-05-30
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -20,9 +20,7 @@ roughly structured into the following topics:
     deep learning flavours of neural networks include
     `r pkg("deepnet")` (feed-forward neural network,
     restricted Boltzmann machine, deep belief network, stacked
-    autoencoders), `r pkg("RcppDL")` (denoising autoencoder,
-    stacked denoising autoencoder, restricted Boltzmann machine, deep
-    belief network) and `r pkg("h2o")` (feed-forward neural
+    autoencoders) and `r pkg("h2o")` (feed-forward neural
     network, deep autoencoders). An interface to
     [tensorflow](http://www.tensorflow.org) is available in
     `r pkg("tensorflow")`. The `r pkg("torch")`
@@ -130,10 +128,7 @@ roughly structured into the following topics:
     shrinkage with Maximum Likelihood of Minimum MSE Risk when errors are IID Normal.
     Semiparametric additive hazards
     models under lasso penalties are offered by package
-    `r pkg("ahaz")`. Fisher's LDA
-    projection with an optional LASSO penalty to produce sparse
-    solutions is implemented in package
-    `r pkg("penalizedLDA")`. The shrunken centroids
+    `r pkg("ahaz")`. The shrunken centroids
     classifier and utilities for gene expression analyses are
     implemented in package `r pkg("pamr")`. An
     implementation of multivariate adaptive regression splines is
