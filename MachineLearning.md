@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2025-05-30
+version: 2025-06-01
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -28,7 +28,7 @@ roughly structured into the following topics:
     library](https://pytorch.org/). There is also `r pkg("mlr3torch")`
     which integrates torch into the `r pkg("mlr3")` ecosystem.
     Prediction uncertainty can be quantified
-    by the ENNreg evidential regression neural network model implemented 
+    by the ENNreg evidential regression neural network model implemented
     in `r pkg("evreg")`.
 -   *Recursive Partitioning* : Tree-structured models for regression,
     classification and survival analysis, following the ideas in the
@@ -44,7 +44,7 @@ roughly structured into the following topics:
     (similar to trees) with linear regression models in the terminal
     leaves, instance-based corrections and boosting. The
     `r pkg("C50")` package can fit C5.0 classification
-    trees, rule-based models, and boosted versions of these. 
+    trees, rule-based models, and boosted versions of these.
     `r pkg("pre")` can fit rule-based models for a wider range of
     response variable types.\
     Two recursive partitioning algorithms with unbiased variable
@@ -58,8 +58,8 @@ roughly structured into the following topics:
     are available in package `r pkg("party")` and
     `r pkg("partykit")` as well. Partitioning of mixed-effects models
     (GLMMs) can be performed with package `r pkg("glmertree")`;
-    partitioning of structural equation models (SEMs) can be performed 
-    with package `r pkg("semtree")`.\ 
+    partitioning of structural equation models (SEMs) can be performed
+    with package `r pkg("semtree")`.\
     Graphical tools for the visualization of trees are available in
     package `r pkg("maptree")`.\
     Partitioning of mixture models is performed by
@@ -69,11 +69,11 @@ roughly structured into the following topics:
     `r pkg("partykit")`. This infrastructure is used by
     package `r pkg("evtree")` to implement evolutionary
     learning of globally optimal trees. Survival trees are available in
-    various packages. 
+    various packages.
 
     Trees for subgroup identification with respect to heterogenuous
     treatment effects  are available in packages `r pkg("partykit")`,
-    `r pkg("model4you")`, `r pkg("dipm")`, `r pkg("quint")`, 
+    `r pkg("model4you")`, `r pkg("dipm")`, `r pkg("quint")`,
     `pkg("SIDES")`, `pkg("psica")`, and `pkg("MrSGUIDE")` (and
     probably many more).
 
@@ -138,9 +138,7 @@ roughly structured into the following topics:
     `r pkg("LiblineaR")` offers an interface to the
     LIBLINEAR library. The `r pkg("ncvreg")` package fits
     linear and logistic regression models under the the SCAD and MCP
-    regression penalties using a coordinate descent algorithm. The same
-    penalties are also implemented in the `r pkg("picasso")`
-    package.
+    regression penalties using a coordinate descent algorithm.
     The Lasso under non-Gaussian and heteroscedastic errors is estimated
     by `r pkg("hdm")`, inference on low-dimensional
     components of Lasso regression and of estimated treatment effects in
@@ -227,7 +225,7 @@ roughly structured into the following topics:
     `r pkg("svmpath")`. Data splitting for crossvalidation
     and other resampling schemes is available in the
     `r pkg("splitTools")` package. Package
-    `r pkg("nestedcv")` provides nested cross-validation for 
+    `r pkg("nestedcv")` provides nested cross-validation for
     `r pkg("glmnet")` and `r pkg("caret")`  models. Functions for ROC
     analysis and other visualisation techniques for comparing candidate
     classifiers are available from package `r pkg("ROCR")`.
@@ -252,7 +250,7 @@ roughly structured into the following topics:
     inference methods.
 -   *Meta packages* : Package `r pkg("tidymodels")` provides
     miscellaneous functions for building predictive models, including
-    parameter tuning and variable importance measures. 
+    parameter tuning and variable importance measures.
     In a similar spirit, package `r pkg("mlr3")` offers high-level interfaces to
     various statistical and machine learning packages. Package
     `r pkg("SuperLearner")` implements a similar toolbox.
@@ -268,7 +266,7 @@ roughly structured into the following topics:
     package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
     performance measures. Package `r pkg("qeML")` provides wrappers to numerous machine learning R packages with a simple, convenient, and uniform interface, for both
-    beginner and advanced operations such as `r pkg("FOCI")` and 
+    beginner and advanced operations such as `r pkg("FOCI")` and
     `r pkg("ncvreg")`.
 -   *Visualisation (initially contributed by Brandon Greenwell)* The
     `stats::termplot()` function package can be used to plot the terms
@@ -301,23 +299,23 @@ roughly structured into the following topics:
     constructed with the `partial()` function from the
     `r pkg("pdp")` package.
 -   *XAI* : Most packages and functions from the last section "Visualization"
-    belong to the field of explainable artificial intelligence (XAI). 
+    belong to the field of explainable artificial intelligence (XAI).
     The meta packages `r pkg("DALEX")` and `r pkg("iml")` offer different
     methods to interpret any model, including partial dependence,
-    accumulated local effects, and permutation importance. Accumulated local 
+    accumulated local effects, and permutation importance. Accumulated local
     effects plots are also directly available in `r pkg("ALEPlot")`.
     SHAP (from *SH*apley *A*dditive ex*P*lanations) is one of the most
-    frequently used techniques to interpret ML models. 
-    It decomposes - in a fair way - predictions into additive contributions 
+    frequently used techniques to interpret ML models.
+    It decomposes - in a fair way - predictions into additive contributions
     of the predictors. For tree-based models, the very fast TreeSHAP algorithm
     exists. It is shipped directly with `r pkg("h2o")`, `r pkg("xgboost")`,
     and `r pkg("lightgbm")`. Model-agnostic implementations of SHAP
     are available in additional packages: `r pkg("fastshap")` mainly uses
-    Monte-Carlo sampling to approximate SHAP values, while `r pkg("shapr")` and 
-    `r pkg("kernelshap")` provide implementations of KernelSHAP. 
-    SHAP values of any of these packages can be plotted by the package `r pkg("shapviz")`. 
-    A port to Python's "shap" package is provided in `r pkg("shapper")`. 
-    Alternative decompositions of predictions are implemented in 
+    Monte-Carlo sampling to approximate SHAP values, while `r pkg("shapr")` and
+    `r pkg("kernelshap")` provide implementations of KernelSHAP.
+    SHAP values of any of these packages can be plotted by the package `r pkg("shapviz")`.
+    A port to Python's "shap" package is provided in `r pkg("shapper")`.
+    Alternative decompositions of predictions are implemented in
     `r pkg("lime")` and `r pkg("iBreakDown")`.
 
 ### Links
