@@ -121,7 +121,8 @@ roughly structured into the following topics:
     entire lasso or elastic-net regularization path (also in
     `r pkg("elasticnet")`) for linear regression, logistic
     and multinomial regression models can be obtained from package
-    `r pkg("glmnet")`. The `r pkg("penalized")`
+    `r pkg("glmnet")`. The `r pkg("easy.glmnet")` is a companion to support the
+    usage of glmnet. The `r pkg("penalized")`
     package provides an alternative implementation of lasso (L1) and
     ridge (L2) penalized regression models (both GLM and Cox models).
     Package `r pkg("RXshrink")` can be used to generate TRACE displays that identify the extent of
