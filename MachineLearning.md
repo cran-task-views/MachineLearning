@@ -1,7 +1,7 @@
 ---
 name: MachineLearning
 topic: Machine Learning & Statistical Learning
-maintainer: Torsten Hothorn
+maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
 version: 2025-05-30
 source: https://github.com/cran-task-views/MachineLearning/
