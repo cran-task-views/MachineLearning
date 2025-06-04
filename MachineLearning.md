@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2025-06-01
+version: 2025-06-03
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -74,8 +74,7 @@ roughly structured into the following topics:
     Trees for subgroup identification with respect to heterogenuous
     treatment effects  are available in packages `r pkg("partykit")`,
     `r pkg("model4you")`, `r pkg("dipm")`, `r pkg("quint")`,
-    `pkg("SIDES")`, `pkg("psica")`, and `pkg("MrSGUIDE")` (and
-    probably many more).
+    `r pkg("SIDES")`, and `r pkg("psica")` (and probably many more).
 
 -   *Random Forests* : The reference implementation of the random forest
     algorithm for regression and classification is available in package
@@ -106,7 +105,7 @@ roughly structured into the following topics:
     Random forests for parametric models, including forests for the
     estimation of predictive distributions, are available in packages
     `r pkg("trtf")` (predictive transformation forests,
-    possibly under censoring and trunction) and
+    possibly under censoring and truncation) and
     `r pkg("grf")` (an implementation of generalised random
     forests).
 -   *Regularized and Shrinkage Methods* : Regression models with some
@@ -266,8 +265,9 @@ roughly structured into the following topics:
     random forests, and several feature selection methods. Similar,
     package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
-    performance measures. Package `r pkg("qeML")` provides wrappers to numerous machine learning R packages with a simple, convenient, and uniform interface, for both
-    beginner and advanced operations such as `r pkg("FOCI")` and
+    performance measures. Package `r pkg("qeML")` provides wrappers to numerous
+    machine learning R packages with a simple, convenient, and uniform interface,
+    for both beginner and advanced operations such as `r pkg("FOCI")` and
     `r pkg("ncvreg")`.
 -   *Visualisation (initially contributed by Brandon Greenwell)* The
     `stats::termplot()` function package can be used to plot the terms
