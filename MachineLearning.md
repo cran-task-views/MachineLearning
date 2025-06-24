@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2025-06-03
+version: 2025-06-24
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -319,7 +319,12 @@ roughly structured into the following topics:
     Alternative decompositions of predictions are implemented in
     `r pkg("lime")` and `r pkg("iBreakDown")`.
 
--   *Performance evaluation*: `r pkg(mlr3measures)`, `r pkg(yardstick)`, `r pkg(MLmetrics)` and `r pkg(SLmetrics)` provide a wide array of classification, regression and clustering metrics for machine learning tasks. mlr3measures is a part of the mlr3verse framework, yardstick is built with tidyverse for the tidymodels framework. MLmetrics and SLmetrics are standalone packages built in base 'R' and 'C++', respectively.
+-   *Performance evaluation*: `r pkg("mlr3measures")`, `r pkg("yardstick")`, `r
+pkg("MLmetrics")` and `r pkg("SLmetrics")` provide a wide array of classification,
+regression and clustering metrics for machine learning tasks. mlr3measures is a
+part of the mlr3verse framework, yardstick is built with tidyverse for the
+tidymodels framework. MLmetrics and SLmetrics are standalone packages built in
+base 'R' and 'C++', respectively.
 
 ### Links
 -   [MLOSS: Machine Learning Open Source Software](http://www.MLOSS.org/)
