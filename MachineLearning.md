@@ -319,8 +319,8 @@ roughly structured into the following topics:
     Alternative decompositions of predictions are implemented in
     `r pkg("lime")` and `r pkg("iBreakDown")`.
 
--   *Performance evaluation*: `r pkg("mlr3measures")`, `r pkg("yardstick")`, `r
-pkg("MLmetrics")` and `r pkg("SLmetrics")` provide a wide array of classification,
+-   *Performance evaluation*: `r pkg("mlr3measures")`, `r pkg("yardstick")`, 
+`r pkg("MLmetrics")` and `r pkg("SLmetrics")` provide a wide array of classification,
 regression and clustering metrics for machine learning tasks. mlr3measures is a
 part of the mlr3verse framework, yardstick is built with tidyverse for the
 tidymodels framework. MLmetrics and SLmetrics are standalone packages built in
