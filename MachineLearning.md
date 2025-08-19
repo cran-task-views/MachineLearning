@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2025-06-24
+version: 2025-08-18
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -303,8 +303,7 @@ roughly structured into the following topics:
     belong to the field of explainable artificial intelligence (XAI).
     The meta packages `r pkg("DALEX")` and `r pkg("iml")` offer different
     methods to interpret any model, including partial dependence,
-    accumulated local effects, and permutation importance. Accumulated local
-    effects plots are also directly available in `r pkg("ALEPlot")`.
+    accumulated local effects, and permutation importance.
     SHAP (from *SH*apley *A*dditive ex*P*lanations) is one of the most
     frequently used techniques to interpret ML models.
     It decomposes - in a fair way - predictions into additive contributions
