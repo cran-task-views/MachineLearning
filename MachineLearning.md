@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2025-08-18
+version: 2025-11-24
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -104,7 +104,10 @@ roughly structured into the following topics:
     `r pkg("trtf")` (predictive transformation forests,
     possibly under censoring and truncation) and
     `r pkg("grf")` (an implementation of generalised random
-    forests).
+    forests). Bayesian Additive Regression Trees (BART) and Bayesian Causal
+    Forests (BCF) are implemented in `r pkg("stochtree")`. Random ferns for
+    classification are implemented in `r pkg("rFerns")`.
+
 -   *Regularized and Shrinkage Methods* : Regression models with some
     constraint on the parameter estimates can be fitted with the
     `r pkg("lars")` package. Lasso with simultaneous updates for groups of parameters
@@ -223,7 +226,9 @@ roughly structured into the following topics:
     and other resampling schemes is available in the
     `r pkg("splitTools")` package. Package
     `r pkg("nestedcv")` provides nested cross-validation for
-    `r pkg("glmnet")` and `r pkg("caret")`  models. Functions for ROC
+    `r pkg("glmnet")` and `r pkg("caret")`  models.
+    Stacking for learning algorithms in `r pkg("caret")` is implemented
+    in `r pkg("stacking")`. Functions for ROC
     analysis and other visualisation techniques for comparing candidate
     classifiers are available from package `r pkg("ROCR")`.
     Packages `r pkg("hdi")` and `r pkg("stabs")`
