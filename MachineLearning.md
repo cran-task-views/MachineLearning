@@ -104,9 +104,7 @@ roughly structured into the following topics:
     `r pkg("trtf")` (predictive transformation forests,
     possibly under censoring and truncation) and
     `r pkg("grf")` (an implementation of generalised random
-    forests). Bayesian Additive Regression Trees (BART) and Bayesian Causal
-    Forests (BCF) are implemented in `r pkg("stochtree")`. Random ferns for
-    classification are implemented in `r pkg("rFerns")`.
+    forests). Random ferns for classification are implemented in `r pkg("rFerns")`.
 
 -   *Regularized and Shrinkage Methods* : Regression models with some
     constraint on the parameter estimates can be fitted with the
@@ -183,8 +181,8 @@ roughly structured into the following topics:
 -   *Bayesian Methods* : Bayesian Additive Regression Trees (BART),
     where the final model is defined in terms of the sum over many weak
     learners (not unlike ensemble methods), are implemented in packages
-    `r pkg("BayesTree")`, `r pkg("BART")`, and
-    `r pkg("bartMachine")`. Bayesian nonstationary,
+    `r pkg("BayesTree")`, `r pkg("BART")`, `r pkg("bartMachine")`,
+    and `r pkg("stochtree")`. Bayesian nonstationary,
     semiparametric nonlinear regression and design by treed Gaussian
     processes including Bayesian CART and treed linear models are made
     available by package `r pkg("tgp")`. Bayesian structure
@@ -241,6 +239,7 @@ roughly structured into the following topics:
     models. Building upon the `r pkg("mlr3")` ecosystem,
     estimation of causal effects can be based on an extensive collection
     of machine learning methods.
+    Bayesian Causal Forests (BCF) are implemented in `r pkg("stochtree")`.
 -   *Other procedures* : Evidential classifiers quantify the uncertainty
     about the class of a test pattern using a Dempster-Shafer mass
     function in package `r pkg("evclass")`. The
