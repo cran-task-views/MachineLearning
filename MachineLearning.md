@@ -122,8 +122,6 @@ roughly structured into the following topics:
     usage of glmnet. The `r pkg("penalized")`
     package provides an alternative implementation of lasso (L1) and
     ridge (L2) penalized regression models (both GLM and Cox models).
-    Package `r pkg("RXshrink")` can be used to generate TRACE displays that identify the extent of
-    shrinkage with Maximum Likelihood of Minimum MSE Risk when errors are IID Normal.
     Semiparametric additive hazards
     models under lasso penalties are offered by package
     `r pkg("ahaz")`. The shrunken centroids
