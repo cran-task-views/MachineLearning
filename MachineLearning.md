@@ -253,6 +253,9 @@ roughly structured into the following topics:
     In a similar spirit, package `r pkg("mlr3")` offers high-level interfaces to
     various statistical and machine learning packages. Package
     `r pkg("SuperLearner")` implements a similar toolbox.
+    Package `r pkg("funcml")` provides a compact supervised learning framework with
+    formula-based model specification, resampling-based evaluation, hyperparameter
+    tuning, and model interpretation.
     The `r pkg("h2o")` package implements a general purpose
     machine learning platform that has scalable implementations of many
     popular algorithms such as random forest, GBM, GLM (with elastic net
