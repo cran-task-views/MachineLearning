@@ -91,7 +91,8 @@ roughly structured into the following topics:
     `r pkg("Boruta")` packages focus on variable selection
     by means for random forest algorithms. In addition, packages
     `r pkg("ranger")` and `r pkg("Rborist")`
-    offer R interfaces to fast C++ implementations of random forests.
+    offer R interfaces to fast C++ implementations of random forests,
+    while package `r pkg("fru")` to a fast and scalable Rust implementation.
     Reinforcement Learning Trees, featuring splits in variables which
     will be important down the tree, are implemented in package
     `r pkg("RLT")`. `r pkg("wsrf")` implements
