@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2026-06-05
+version: 2026-07-14
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -151,7 +151,10 @@ roughly structured into the following topics:
     reliable p-values for all model parameters. Best-subset selection
     for linear, logistic, Cox and other regression models, based on a
     fast polynomial time algorithm, is available from package
-    `r pkg("abess", priority = "core")`.
+    `r pkg("abess", priority = "core")`. Sparse principal component
+    analysis with multiple components, providing regularized
+    unsupervised dimension reduction for high-dimensional data, is
+    implemented in package `r pkg("msPCA")`.
 -   *Boosting and Gradient Descent* : Various forms of gradient boosting
     are implemented in package
     `r pkg("gbm", priority = "core")` (tree-based functional
