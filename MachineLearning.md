@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2026-07-14
+version: 2026-08-21
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -212,12 +212,22 @@ roughly structured into the following topics:
     Miner algorithm (implemented in C++) for finding the key
     associations in transaction data efficiently, in the form of
     self-sufficient itemsets, using either leverage or lift.
+    Package `r pkg("nuggets")` provides an extensible framework for
+    discovering rules and other patterns in data, including fuzzy
+    association rules, contrasts and conditional correlations. It
+    supports user-defined rule types, as well as visualization and
+    interactive browsing of discovered patterns.
 -   *Fuzzy Rule-based Systems* : Package `r pkg("frbs")`
     implements a host of standard methods for learning fuzzy rule-based
     systems from data for regression and classification. Package
     `r pkg("RoughSets")` provides comprehensive
     implementations of the rough set theory (RST) and the fuzzy rough
-    set theory (FRST) in a single package.
+    set theory (FRST) in a single package. Package `r pkg("lfl")`
+    implements algorithms for linguistic fuzzy logic (fuzzy natural
+    logic), including perception-based logical deduction, missing values
+    interpretation, fuzzy relational composition, intermediate
+    quantifiers, Sugeno integral, and fuzzy rule-based ensembles for
+    time-series forecasting.
 -   *Model selection and validation* : Package
     `r pkg("e1071")` has function `tune()` for hyper
     parameter tuning and function `errorest()`
