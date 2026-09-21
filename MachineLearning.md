@@ -3,7 +3,7 @@ name: MachineLearning
 topic: Machine Learning & Statistical Learning
 maintainer: Torsten Hothorn, Hannah Frick, Lucas Kook
 email: Torsten.Hothorn@R-project.org
-version: 2026-08-21
+version: 2026-09-21
 source: https://github.com/cran-task-views/MachineLearning/
 ---
 
@@ -243,10 +243,8 @@ roughly structured into the following topics:
     in `r pkg("stacking")`. Functions for ROC
     analysis and other visualisation techniques for comparing candidate
     classifiers are available from package `r pkg("ROCR")`.
-    Packages `r pkg("hdi")` and `r pkg("stabs")`
-    implement stability selection for a range of models,
-    `r pkg("hdi")` also offers other inference procedures in
-    high-dimensional models.
+    Package `r pkg("stabs")` implements stability
+    selection for a range of models.
 -   *Causal Machine Learning* : The package
     `r pkg("DoubleML")` is an object-oriented implementation
     of the double machine learning framework in a variety of causal
@@ -278,10 +276,7 @@ roughly structured into the following topics:
     regularization), and deep learning (feedforward multilayer
     networks), among others. An interface to the mlpack C++ library is
     available from package `r pkg("mlpack")`.
-    `r pkg("CORElearn")` implements a rather broad class of
-    machine learning algorithms, such as nearest neighbors, trees,
-    random forests, and several feature selection methods. Similar,
-    package `r pkg("rminer")` interfaces several learning
+    Package `r pkg("rminer")` interfaces several learning
     algorithms implemented in other packages and computes several
     performance measures. Package `r pkg("qeML")` provides wrappers to numerous
     machine learning R packages with a simple, convenient, and uniform interface,
@@ -328,8 +323,7 @@ roughly structured into the following topics:
     of the predictors. For tree-based models, the very fast TreeSHAP algorithm
     exists. It is shipped directly with `r pkg("h2o")`, `r pkg("xgboost")`,
     and `r pkg("lightgbm")`. Model-agnostic implementations of SHAP
-    are available in additional packages: `r pkg("fastshap")` mainly uses
-    Monte-Carlo sampling to approximate SHAP values, while `r pkg("shapr")` and
+    are available in additional packages: `r pkg("shapr")` and
     `r pkg("kernelshap")` provide implementations of KernelSHAP.
     SHAP values of any of these packages can be plotted by the package `r pkg("shapviz")`.
     A port to Python's "shap" package is provided in `r pkg("shapper")`.
